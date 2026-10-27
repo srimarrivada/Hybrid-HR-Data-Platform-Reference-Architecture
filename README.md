@@ -23,7 +23,7 @@ This is a sanitized portfolio artifact created to demonstrate enterprise data pl
 
 ## Architecture Diagram
 
-![Hybrid HR Data Platform Reference Architecture](diagrams/hybrid-hr-data-platform-reference-architecture.png)
+![Hybrid HR Data Platform Reference Architecture](https:/github.com/srimarrivada/Hybrid-HR-Data-Platform-Reference-Architecture/blob/main/diagrams/hybrid-hr-data-platform-reference-architecture.png)
 
 The diagram shows a side-by-side hybrid architecture:
 

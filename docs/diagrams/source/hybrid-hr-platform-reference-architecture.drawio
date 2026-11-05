@@ -1,0 +1,1314 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="auqTu71QHzb07RRqKiTs" name="Reference">
+    <mxGraphModel dx="2131" dy="806" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2400" pageHeight="4700" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="bVKumJbvJyEJEweoQE7_-1" parent="0" value="1 · Title &amp; Navigation" />
+        <mxCell id="bVKumJbvJyEJEweoQE7_-2" parent="bVKumJbvJyEJEweoQE7_-1" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#0D1B2A;gradientColor=#263238;gradientDirection=east;strokeColor=#37474F;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="164" width="2320" x="40" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-3" parent="bVKumJbvJyEJEweoQE7_-1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontColor=#FFFFFF;spacingLeft=4;" value="&lt;font style=&quot;font-size:26px&quot;&gt;&lt;b&gt;Hybrid HR Data Platform&lt;/b&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 20px;&quot; color=&quot;#90CAF9&quot;&gt;&amp;nbsp; Reference Architecture&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="1540" x="60" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-4" parent="bVKumJbvJyEJEweoQE7_-1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=12;fontColor=#B0BEC5;spacingLeft=4;" value="Nightly batch warehouse + Event-driven Cloud Lakehouse, joined by Zero-Copy Federation. Illustrative and generalized" vertex="1">
+          <mxGeometry height="22" width="1540" x="60" y="66" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-5" parent="bVKumJbvJyEJEweoQE7_-1" style="rounded=1;arcSize=50;whiteSpace=wrap;html=1;fillColor=#F38B00;strokeColor=#FFFFFF;strokeWidth=2;fontColor=#FFFFFF;fontSize=11;fontStyle=1;" value="HCM" vertex="1">
+          <mxGeometry height="36" width="90" x="1640" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-6" parent="bVKumJbvJyEJEweoQE7_-1" style="rounded=1;arcSize=30;whiteSpace=wrap;html=1;fillColor=#1565C0;strokeColor=#FFFFFF;strokeWidth=2;fontColor=#FFFFFF;fontSize=11;fontStyle=1;" value="Warehouse" vertex="1">
+          <mxGeometry height="36" width="110" x="1770" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-7" parent="bVKumJbvJyEJEweoQE7_-1" style="rounded=1;arcSize=30;whiteSpace=wrap;html=1;fillColor=#E65100;strokeColor=#FFFFFF;strokeWidth=2;fontColor=#FFFFFF;fontSize=11;fontStyle=1;" value="Lakehouse" vertex="1">
+          <mxGeometry height="36" width="110" x="1920" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-8" parent="bVKumJbvJyEJEweoQE7_-1" style="rounded=1;arcSize=30;whiteSpace=wrap;html=1;fillColor=#6A1B9A;strokeColor=#FFFFFF;strokeWidth=2;fontColor=#FFFFFF;fontSize=11;fontStyle=1;" value="BI" vertex="1">
+          <mxGeometry height="36" width="90" x="2070" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-9" parent="bVKumJbvJyEJEweoQE7_-1" style="rounded=1;arcSize=30;whiteSpace=wrap;html=1;fillColor=#2E7D32;strokeColor=#FFFFFF;strokeWidth=2;fontColor=#FFFFFF;fontSize=11;fontStyle=1;" value="Users" vertex="1">
+          <mxGeometry height="36" width="110" x="2200" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-10" edge="1" parent="bVKumJbvJyEJEweoQE7_-1" source="bVKumJbvJyEJEweoQE7_-5" style="html=1;strokeColor=#FFFFFF;strokeWidth=2;endArrow=block;endFill=1;flowAnimation=1;" target="bVKumJbvJyEJEweoQE7_-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-11" edge="1" parent="bVKumJbvJyEJEweoQE7_-1" source="bVKumJbvJyEJEweoQE7_-6" style="html=1;strokeColor=#CE93D8;strokeWidth=2;dashed=1;endArrow=block;endFill=1;flowAnimation=1;" target="bVKumJbvJyEJEweoQE7_-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-12" edge="1" parent="bVKumJbvJyEJEweoQE7_-1" source="bVKumJbvJyEJEweoQE7_-7" style="html=1;strokeColor=#FFFFFF;strokeWidth=2;endArrow=block;endFill=1;flowAnimation=1;" target="bVKumJbvJyEJEweoQE7_-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-13" edge="1" parent="bVKumJbvJyEJEweoQE7_-1" source="bVKumJbvJyEJEweoQE7_-8" style="html=1;strokeColor=#FFFFFF;strokeWidth=2;endArrow=block;endFill=1;flowAnimation=1;" target="bVKumJbvJyEJEweoQE7_-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-14" edge="1" parent="bVKumJbvJyEJEweoQE7_-1" source="bVKumJbvJyEJEweoQE7_-5" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#FFCC80;strokeWidth=2;dashed=1;endArrow=block;endFill=1;flowAnimation=1;exitX=0.5;exitY=0;entryX=0.5;entryY=0;fontSize=9;fontColor=#FFCC80;labelBackgroundColor=none;" target="bVKumJbvJyEJEweoQE7_-7" value="Events">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1685" y="30" />
+              <mxPoint x="1975" y="30" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-15" edge="1" parent="bVKumJbvJyEJEweoQE7_-1" source="bVKumJbvJyEJEweoQE7_-6" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#90CAF9;strokeWidth=2;endArrow=block;endFill=1;flowAnimation=1;exitX=0.5;exitY=1;entryX=0.5;entryY=1;" target="bVKumJbvJyEJEweoQE7_-8" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1825" y="88" />
+              <mxPoint x="2115" y="88" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-16" parent="bVKumJbvJyEJEweoQE7_-1" style="rounded=1;arcSize=30;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#CE93D8;strokeWidth=1.5;fontColor=#E1BEE7;fontSize=10;fontStyle=1;" value="PATTERNS ▸" vertex="1">
+          <mxGeometry height="32" width="112" x="60" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-17" parent="bVKumJbvJyEJEweoQE7_-1" style="rounded=1;arcSize=30;whiteSpace=wrap;html=1;fillColor=#0D47A1;strokeColor=#90CAF9;fontColor=#FFFFFF;fontSize=11;" value="⏱ Nightly batch · T+1 warehouse" vertex="1">
+          <mxGeometry height="32" width="300" x="180" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-18" parent="bVKumJbvJyEJEweoQE7_-1" style="rounded=1;arcSize=30;whiteSpace=wrap;html=1;fillColor=#BF360C;strokeColor=#FFCC80;fontColor=#FFFFFF;fontSize=11;" value="⚡ Events + micro-batches · hours of lag" vertex="1">
+          <mxGeometry height="32" width="300" x="488" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-19" parent="bVKumJbvJyEJEweoQE7_-1" style="rounded=1;arcSize=30;whiteSpace=wrap;html=1;fillColor=#4A148C;strokeColor=#CE93D8;fontColor=#FFFFFF;fontSize=11;" value="🔗 Zero-copy federation of conformed dims" vertex="1">
+          <mxGeometry height="32" width="300" x="796" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-20" parent="bVKumJbvJyEJEweoQE7_-1" style="rounded=1;arcSize=30;whiteSpace=wrap;html=1;fillColor=#5D4037;strokeColor=#BCAAA4;fontColor=#FFFFFF;fontSize=11;" value="🏅 Medallion only where it adds value" vertex="1">
+          <mxGeometry height="32" width="300" x="1104" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-21" parent="bVKumJbvJyEJEweoQE7_-1" style="rounded=1;arcSize=30;whiteSpace=wrap;html=1;fillColor=#B71C1C;strokeColor=#EF9A9A;fontColor=#FFFFFF;fontSize=11;" value="🧪 Blocking DQ gate vs alerting DQ" vertex="1">
+          <mxGeometry height="32" width="300" x="1412" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-22" parent="bVKumJbvJyEJEweoQE7_-1" style="rounded=1;arcSize=30;whiteSpace=wrap;html=1;fillColor=#455A64;strokeColor=#CFD8DC;fontColor=#FFFFFF;fontSize=11;" value="🔒 Tiered security · sensitive data stays in DW" vertex="1">
+          <mxGeometry height="32" width="300" x="1720" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-23" parent="bVKumJbvJyEJEweoQE7_-1" style="rounded=1;arcSize=30;whiteSpace=wrap;html=1;fillColor=#2E7D32;strokeColor=#A5D6A7;fontColor=#FFFFFF;fontSize=11;" value="📊 Staggered BI refresh · freshness by design" vertex="1">
+          <mxGeometry height="32" width="300" x="2028" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-24" parent="bVKumJbvJyEJEweoQE7_-1" style="rounded=1;arcSize=50;html=1;fillColor=#1976D2;gradientColor=#EF6C00;gradientDirection=east;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="4" width="2280" x="60" y="144" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-25" parent="bVKumJbvJyEJEweoQE7_-1" style="text;html=1;align=center;verticalAlign=middle;fontSize=10;fontColor=#90A4AE;" value="&lt;i&gt;Layers panel Ctrl+Shift+L · ⊖ collapses a section · hover for tooltips · buttons work in View mode&lt;/i&gt;" vertex="1">
+          <mxGeometry height="24" width="2280" x="60" y="154" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-26" parent="bVKumJbvJyEJEweoQE7_-1" style="text;html=1;align=right;verticalAlign=middle;fontSize=12;fontColor=#263238;" value="&lt;b&gt;NAVIGATE ▸&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="110" x="40" y="192" as="geometry" />
+        </mxCell>
+        <UserObject label="Sources" link="data:action/json,{&quot;actions&quot;:[{&quot;scroll&quot;:{&quot;cells&quot;:[&quot;bVKumJbvJyEJEweoQE7_-45&quot;,&quot;bVKumJbvJyEJEweoQE7_-57&quot;]}}]}" tooltip="Jump to Sources" id="bVKumJbvJyEJEweoQE7_-27">
+      <mxCell parent="bVKumJbvJyEJEweoQE7_-1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1F5FA6;fontColor=#FFFFFF;strokeColor=none;fontSize=11;fontStyle=1;" vertex="1">
+        <mxGeometry height="30" width="131" x="160" y="192" as="geometry" />
+      </mxCell>
+    </UserObject>
+    <UserObject label="Ingestion" link="data:action/json,{&quot;actions&quot;:[{&quot;scroll&quot;:{&quot;cells&quot;:[&quot;bVKumJbvJyEJEweoQE7_-69&quot;,&quot;bVKumJbvJyEJEweoQE7_-81&quot;]}}]}" tooltip="Jump to Ingestion" id="bVKumJbvJyEJEweoQE7_-28">
+      <mxCell parent="bVKumJbvJyEJEweoQE7_-1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#3E7A2E;fontColor=#FFFFFF;strokeColor=none;fontSize=11;fontStyle=1;" vertex="1">
+        <mxGeometry height="30" width="131" x="297" y="192" as="geometry" />
+      </mxCell>
+    </UserObject>
+    <UserObject label="Storage" link="data:action/json,{&quot;actions&quot;:[{&quot;scroll&quot;:{&quot;cells&quot;:[&quot;bVKumJbvJyEJEweoQE7_-116&quot;,&quot;bVKumJbvJyEJEweoQE7_-128&quot;]}}]}" tooltip="Jump to Storage" id="bVKumJbvJyEJEweoQE7_-29">
+      <mxCell parent="bVKumJbvJyEJEweoQE7_-1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B8860B;fontColor=#FFFFFF;strokeColor=none;fontSize=11;fontStyle=1;" vertex="1">
+        <mxGeometry height="30" width="131" x="434" y="192" as="geometry" />
+      </mxCell>
+    </UserObject>
+    <UserObject label="Processing" link="data:action/json,{&quot;actions&quot;:[{&quot;scroll&quot;:{&quot;cells&quot;:[&quot;bVKumJbvJyEJEweoQE7_-138&quot;,&quot;bVKumJbvJyEJEweoQE7_-152&quot;]}}]}" tooltip="Jump to Processing" id="bVKumJbvJyEJEweoQE7_-30">
+      <mxCell parent="bVKumJbvJyEJEweoQE7_-1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B85450;fontColor=#FFFFFF;strokeColor=none;fontSize=11;fontStyle=1;" vertex="1">
+        <mxGeometry height="30" width="131" x="571" y="192" as="geometry" />
+      </mxCell>
+    </UserObject>
+    <UserObject label="Delivery" link="data:action/json,{&quot;actions&quot;:[{&quot;scroll&quot;:{&quot;cells&quot;:[&quot;bVKumJbvJyEJEweoQE7_-164&quot;,&quot;bVKumJbvJyEJEweoQE7_-170&quot;]}}]}" tooltip="Jump to Delivery" id="bVKumJbvJyEJEweoQE7_-31">
+      <mxCell parent="bVKumJbvJyEJEweoQE7_-1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#616161;fontColor=#FFFFFF;strokeColor=none;fontSize=11;fontStyle=1;" vertex="1">
+        <mxGeometry height="30" width="131" x="708" y="192" as="geometry" />
+      </mxCell>
+    </UserObject>
+    <UserObject label="Analytics" link="data:action/json,{&quot;actions&quot;:[{&quot;scroll&quot;:{&quot;cells&quot;:[&quot;bVKumJbvJyEJEweoQE7_-201&quot;,&quot;bVKumJbvJyEJEweoQE7_-233&quot;]}}]}" tooltip="Jump to Warehouse + Lakehouse" id="bVKumJbvJyEJEweoQE7_-32">
+      <mxCell parent="bVKumJbvJyEJEweoQE7_-1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1565C0;fontColor=#FFFFFF;strokeColor=none;fontSize=11;fontStyle=1;" vertex="1">
+        <mxGeometry height="30" width="131" x="845" y="192" as="geometry" />
+      </mxCell>
+    </UserObject>
+    <UserObject label="Consumption" link="data:action/json,{&quot;actions&quot;:[{&quot;scroll&quot;:{&quot;cells&quot;:[&quot;bVKumJbvJyEJEweoQE7_-264&quot;]}}]}" tooltip="Jump to Consumption" id="bVKumJbvJyEJEweoQE7_-33">
+      <mxCell parent="bVKumJbvJyEJEweoQE7_-1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6A1B9A;fontColor=#FFFFFF;strokeColor=none;fontSize=11;fontStyle=1;" vertex="1">
+        <mxGeometry height="30" width="131" x="982" y="192" as="geometry" />
+      </mxCell>
+    </UserObject>
+    <UserObject label="Timeline" link="data:action/json,{&quot;actions&quot;:[{&quot;scroll&quot;:{&quot;cells&quot;:[&quot;bVKumJbvJyEJEweoQE7_-269&quot;]}}]}" tooltip="Jump to the daily timeline" id="bVKumJbvJyEJEweoQE7_-34">
+      <mxCell parent="bVKumJbvJyEJEweoQE7_-1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F57F17;fontColor=#FFFFFF;strokeColor=none;fontSize=11;fontStyle=1;" vertex="1">
+        <mxGeometry height="30" width="131" x="1119" y="192" as="geometry" />
+      </mxCell>
+    </UserObject>
+    <UserObject label="Governance &amp; Ops" link="data:action/json,{&quot;actions&quot;:[{&quot;scroll&quot;:{&quot;cells&quot;:[&quot;bVKumJbvJyEJEweoQE7_-284&quot;,&quot;bVKumJbvJyEJEweoQE7_-289&quot;]}}]}" tooltip="Jump to governance and operations" id="bVKumJbvJyEJEweoQE7_-35">
+      <mxCell parent="bVKumJbvJyEJEweoQE7_-1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#455A64;fontColor=#FFFFFF;strokeColor=none;fontSize=11;fontStyle=1;" vertex="1">
+        <mxGeometry height="30" width="131" x="1256" y="192" as="geometry" />
+      </mxCell>
+    </UserObject>
+    <UserObject label="Principles" link="data:action/json,{&quot;actions&quot;:[{&quot;scroll&quot;:{&quot;cells&quot;:[&quot;bVKumJbvJyEJEweoQE7_-294&quot;]}}]}" tooltip="Jump to the design principles" id="bVKumJbvJyEJEweoQE7_-36">
+      <mxCell parent="bVKumJbvJyEJEweoQE7_-1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#00695C;fontColor=#FFFFFF;strokeColor=none;fontSize=11;fontStyle=1;" vertex="1">
+        <mxGeometry height="30" width="131" x="1393" y="192" as="geometry" />
+      </mxCell>
+    </UserObject>
+    <UserObject label="Legend" tooltip="Jump to the legend (arrows, colors, icons, shapes)" link="data:action/json,{&quot;actions&quot;:[{&quot;scroll&quot;:{&quot;cells&quot;:[&quot;bVKumJbvJyEJEweoQE7_-322&quot;]}}]}" id="bVKumJbvJyEJEweoQE7_-37">
+      <mxCell parent="bVKumJbvJyEJEweoQE7_-1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#757575;fontColor=#FFFFFF;strokeColor=none;fontSize=11;fontStyle=1;" vertex="1">
+        <mxGeometry height="30" width="131" x="1530" y="192" as="geometry" />
+      </mxCell>
+    </UserObject>
+    <UserObject label="Failure Paths" tooltip="Jump to the failure &amp; recovery paths (F1–F5)" link="data:action/json,{&quot;actions&quot;:[{&quot;show&quot;:{&quot;cells&quot;:[&quot;bVKumJbvJyEJEweoQE7_-346&quot;]}},{&quot;scroll&quot;:{&quot;cells&quot;:[&quot;bVKumJbvJyEJEweoQE7_-354&quot;]}}]}" id="nav_fail">
+      <mxCell parent="bVKumJbvJyEJEweoQE7_-1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B71C1C;fontColor=#FFFFFF;strokeColor=none;fontSize=11;fontStyle=1;" vertex="1">
+        <mxGeometry height="30" width="131" x="1667" y="192" as="geometry" />
+      </mxCell>
+    </UserObject>
+    <UserObject label="Decision Key" tooltip="Jump to the decision key (D1–D13) · each card opens its ADR" link="data:action/json,{&quot;actions&quot;:[{&quot;show&quot;:{&quot;cells&quot;:[&quot;bVKumJbvJyEJEweoQE7_-346&quot;]}},{&quot;scroll&quot;:{&quot;cells&quot;:[&quot;dkey&quot;]}}]}" id="nav_dkey">
+      <mxCell parent="bVKumJbvJyEJEweoQE7_-1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0F172A;fontColor=#FBBF24;strokeColor=#FBBF24;strokeWidth=1.5;fontSize=11;fontStyle=1;" vertex="1">
+        <mxGeometry height="30" width="131" x="1804" y="192" as="geometry" />
+      </mxCell>
+    </UserObject>
+    <UserObject label="⇆ Platform 1" link="data:action/json,{&quot;actions&quot;:[{&quot;toggle&quot;:{&quot;cells&quot;:[&quot;bVKumJbvJyEJEweoQE7_-41&quot;,&quot;bVKumJbvJyEJEweoQE7_-45&quot;,&quot;bVKumJbvJyEJEweoQE7_-69&quot;,&quot;bVKumJbvJyEJEweoQE7_-116&quot;,&quot;bVKumJbvJyEJEweoQE7_-138&quot;,&quot;bVKumJbvJyEJEweoQE7_-164&quot;,&quot;bVKumJbvJyEJEweoQE7_-201&quot;]}}]}" tooltip="Show / hide every Platform 1 section" id="bVKumJbvJyEJEweoQE7_-38">
+      <mxCell parent="bVKumJbvJyEJEweoQE7_-1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0D47A1;fontColor=#FFFFFF;strokeColor=none;fontSize=11;fontStyle=1;" vertex="1">
+        <mxGeometry height="30" width="131" x="1941" y="192" as="geometry" />
+      </mxCell>
+    </UserObject>
+    <UserObject label="⇆ Platform 2" link="data:action/json,{&quot;actions&quot;:[{&quot;toggle&quot;:{&quot;cells&quot;:[&quot;bVKumJbvJyEJEweoQE7_-42&quot;,&quot;bVKumJbvJyEJEweoQE7_-57&quot;,&quot;bVKumJbvJyEJEweoQE7_-81&quot;,&quot;bVKumJbvJyEJEweoQE7_-128&quot;,&quot;bVKumJbvJyEJEweoQE7_-152&quot;,&quot;bVKumJbvJyEJEweoQE7_-170&quot;,&quot;bVKumJbvJyEJEweoQE7_-233&quot;]}}]}" tooltip="Show / hide every Platform 2 section" id="bVKumJbvJyEJEweoQE7_-39">
+      <mxCell parent="bVKumJbvJyEJEweoQE7_-1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#BF360C;fontColor=#FFFFFF;strokeColor=none;fontSize=11;fontStyle=1;" vertex="1">
+        <mxGeometry height="30" width="131" x="2078" y="192" as="geometry" />
+      </mxCell>
+    </UserObject>
+    <UserObject label="⇆ Data Flows" link="data:action/json,{&quot;actions&quot;:[{&quot;toggle&quot;:{&quot;cells&quot;:[&quot;bVKumJbvJyEJEweoQE7_-338&quot;]}}]}" tooltip="Show / hide the cross-section arrows" id="bVKumJbvJyEJEweoQE7_-40">
+      <mxCell parent="bVKumJbvJyEJEweoQE7_-1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#AD1457;fontColor=#FFFFFF;strokeColor=none;fontSize=11;fontStyle=1;" vertex="1">
+        <mxGeometry height="30" width="131" x="2215" y="192" as="geometry" />
+      </mxCell>
+    </UserObject>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-41" parent="bVKumJbvJyEJEweoQE7_-1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0D47A1;fontColor=#FFFFFF;strokeColor=none;fontSize=12;arcSize=10;" value="&lt;font style=&quot;font-size:17px&quot;&gt;&lt;b&gt;PLATFORM 1 · BATCH ENTERPRISE WAREHOUSE&lt;/b&gt;&lt;/font&gt;&lt;br&gt;Nightly batch (T+1) · On-prem Relational DB + ETL Tool + Enterprise Scheduler · Producer of conformed data" vertex="1">
+          <mxGeometry height="56" width="1140" x="40" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-42" parent="bVKumJbvJyEJEweoQE7_-1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#BF360C;fontColor=#FFFFFF;strokeColor=none;fontSize=12;arcSize=10;" value="&lt;font style=&quot;font-size:17px&quot;&gt;&lt;b&gt;PLATFORM 2 · CLOUD INTEGRATION LAKEHOUSE&lt;/b&gt;&lt;/font&gt;&lt;br&gt;Events + Scheduled micro-batches · Spark notebooks + Delta tables + Message queue · Consumer of conformed data" vertex="1">
+          <mxGeometry height="56" width="1140" x="1220" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-43" parent="0" value="2 · Sources" />
+        <mxCell id="bVKumJbvJyEJEweoQE7_-44" parent="bVKumJbvJyEJEweoQE7_-43" style="rounded=1;arcSize=40;whiteSpace=wrap;html=1;fillColor=#FFF1E0;strokeColor=#E07A00;strokeWidth=2;dashed=1;fontSize=13;fontColor=#8A4B00;" value="★ &lt;b&gt;The HCM system is the single system of record:&lt;/b&gt;&amp;nbsp;Nightly API extraction feeds Platform 1. Business events and APIs feed Platform 2" vertex="1">
+          <mxGeometry height="28" width="2320" x="40" y="294" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-45" parent="bVKumJbvJyEJEweoQE7_-43" style="swimlane;whiteSpace=wrap;html=1;startSize=34;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontStyle=1;fontSize=14;align=center;spacingLeft=14;swimlaneFillColor=#FCFDFF;rounded=1;arcSize=1;collapsible=1;" value="SOURCES · PLATFORM 1: System of record + Domain file feeds + Enrichment" vertex="1">
+          <mxGeometry height="300" width="1140" x="40" y="330" as="geometry">
+            <mxRectangle height="34" width="800" x="40" y="330" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-46" parent="bVKumJbvJyEJEweoQE7_-45" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#FFF1E0;strokeColor=#E07A00;strokeWidth=3;fontSize=11;align=left;verticalAlign=top;spacingLeft=10;spacingTop=6;spacingRight=8;" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;★ PRIMARY: HCM system of record&lt;/b&gt;&lt;/div&gt;&lt;hr&gt;• SOAP / REST APIs: Workers, organizations, locations, job catalog, compensation&lt;br&gt;• Custom reports: Terminations, transactions, mobility, plans&lt;br&gt;• Extraction scoped to the in-scope org hierarchy&lt;br&gt;• Also emits business events → Platform 2" vertex="1">
+          <mxGeometry height="246" width="360" x="10" y="44" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-47" parent="bVKumJbvJyEJEweoQE7_-45" style="rounded=1;arcSize=3;whiteSpace=wrap;html=1;fillColor=#F4FAF8;strokeColor=#2E8B7A;strokeWidth=2;dashed=1;fontSize=12;fontStyle=1;fontColor=#2E8B7A;align=center;verticalAlign=top;spacingLeft=10;spacingTop=4;" value="SECONDARY: Domain file feeds (SFTP / MFT)" vertex="1">
+          <mxGeometry height="246" width="440" x="380" y="44" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-48" parent="bVKumJbvJyEJEweoQE7_-45" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;strokeWidth=2;fontSize=10;align=left;verticalAlign=top;spacingLeft=6;spacingTop=4;" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;Payroll Provider&lt;/b&gt;&lt;/div&gt;Earnings · deductions · tax · balances&lt;br&gt;&lt;i&gt;Flat file · Daily after payroll commit&lt;/i&gt;" vertex="1">
+          <mxGeometry height="100" width="205" x="390" y="72" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-49" parent="bVKumJbvJyEJEweoQE7_-45" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#E1D5E7;strokeColor=#9673A6;strokeWidth=2;fontSize=10;align=left;verticalAlign=top;spacingLeft=6;spacingTop=4;" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;Benefits Administrator&lt;/b&gt;&lt;/div&gt;Plan costs · balances · statements&lt;br&gt;&lt;i&gt;Flat file · Weekly / monthly&lt;/i&gt;" vertex="1">
+          <mxGeometry height="100" width="205" x="605" y="72" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-50" parent="bVKumJbvJyEJEweoQE7_-45" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;strokeWidth=2;fontSize=10;align=left;verticalAlign=top;spacingLeft=6;spacingTop=4;" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;Time and Attendance&lt;/b&gt;&lt;/div&gt;Hours · project hours · leave balances&lt;br&gt;&lt;i&gt;Flat file · Bi-weekly / monthly&lt;/i&gt;" vertex="1">
+          <mxGeometry height="100" width="205" x="390" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-51" parent="bVKumJbvJyEJEweoQE7_-45" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#F8CECC;strokeColor=#B85450;strokeWidth=2;fontSize=10;align=left;verticalAlign=top;spacingLeft=6;spacingTop=4;" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;🔒 Restricted Feed&lt;/b&gt;&lt;/div&gt;Sensitive identifiers · least-privilege access" vertex="1">
+          <mxGeometry height="100" width="205" x="605" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-52" parent="bVKumJbvJyEJEweoQE7_-45" style="rounded=1;arcSize=3;whiteSpace=wrap;html=1;fillColor=#F8F8F8;strokeColor=#808080;strokeWidth=2;dashed=1;dashPattern=1 3;fontSize=12;fontStyle=1;fontColor=#555555;align=center;verticalAlign=top;spacingLeft=10;spacingTop=4;" value="ENRICHMENT: Read in place" vertex="1">
+          <mxGeometry height="246" width="300" x="830" y="44" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-53" parent="bVKumJbvJyEJEweoQE7_-45" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#F0F4C3;strokeColor=#9E9D24;dashed=1;fontSize=10;" value="&lt;b&gt;Identity / master data:&amp;nbsp;&lt;/b&gt;Person IDs for pre-hires" vertex="1">
+          <mxGeometry height="48" width="280" x="840" y="72" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-54" parent="bVKumJbvJyEJEweoQE7_-45" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#E8EAF6;strokeColor=#3949AB;dashed=1;fontSize=10;" value="&lt;b&gt;Directory service:&amp;nbsp;&lt;/b&gt;Work email lookup" vertex="1">
+          <mxGeometry height="48" width="280" x="840" y="126" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-55" parent="bVKumJbvJyEJEweoQE7_-45" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#E8E3F5;strokeColor=#6A5ACD;dashed=1;fontSize=10;" value="&lt;b&gt;Finance reference DB:&lt;/b&gt; Region + Market lookups (read in place)" vertex="1">
+          <mxGeometry height="48" width="280" x="840" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-56" parent="bVKumJbvJyEJEweoQE7_-45" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#ECEFF1;strokeColor=#607D8B;dashed=1;fontSize=10;" value="&lt;b&gt;Static reference files&lt;/b&gt;: Countries, states, tax IDs" vertex="1">
+          <mxGeometry height="48" width="280" x="840" y="234" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-57" parent="bVKumJbvJyEJEweoQE7_-43" style="swimlane;whiteSpace=wrap;html=1;startSize=34;fillColor=#FFE6CC;strokeColor=#D79B00;fontStyle=1;fontSize=14;align=center;spacingLeft=14;swimlaneFillColor=#FFFCF8;rounded=1;arcSize=1;collapsible=1;" value="SOURCES · PLATFORM 2: Integration endpoints (Event / API / File)" vertex="1">
+          <mxGeometry height="300" width="1140" x="1220" y="330" as="geometry">
+            <mxRectangle height="34" width="800" x="1220" y="330" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-58" parent="bVKumJbvJyEJEweoQE7_-57" style="rounded=1;arcSize=3;whiteSpace=wrap;html=1;fillColor=#FFF8F0;strokeColor=#E07A00;strokeWidth=2;fontSize=12;fontStyle=1;fontColor=#B35F00;align=center;verticalAlign=top;spacingLeft=10;spacingTop=4;" value="EVENTS: Real-time push" vertex="1">
+          <mxGeometry height="246" width="300" x="10" y="44" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-59" parent="bVKumJbvJyEJEweoQE7_-57" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#FFF1E0;strokeColor=#E07A00;strokeWidth=2;fontSize=10;" value="&lt;b&gt;HCM Business Events&lt;/b&gt;&lt;br&gt;Hire · transfer · correction · JSON" vertex="1">
+          <mxGeometry height="80" width="280" x="20" y="72" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-60" parent="bVKumJbvJyEJEweoQE7_-57" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=10;fillColor=#E3F2FD;strokeColor=#0078D4;strokeWidth=2;fontSize=10;" value="&lt;b&gt;Message Queue&lt;/b&gt;&lt;br&gt;Durable event buffer" vertex="1">
+          <mxGeometry height="96" width="200" x="60" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-61" edge="1" parent="bVKumJbvJyEJEweoQE7_-57" source="bVKumJbvJyEJEweoQE7_-59" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeWidth=2;strokeColor=#E07A00;endArrow=block;endFill=1;flowAnimation=1;fontSize=9;labelBackgroundColor=#FFF8F0;" target="bVKumJbvJyEJEweoQE7_-60" value="push">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-62" parent="bVKumJbvJyEJEweoQE7_-57" style="rounded=1;arcSize=3;whiteSpace=wrap;html=1;fillColor=#F4F6FA;strokeColor=#4A6A8A;strokeWidth=2;dashed=1;fontSize=12;fontStyle=1;fontColor=#4A6A8A;align=center;verticalAlign=top;spacingLeft=10;spacingTop=4;" value="APIs: SOAP / REST / OAuth2" vertex="1">
+          <mxGeometry height="246" width="400" x="320" y="44" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-63" parent="bVKumJbvJyEJEweoQE7_-57" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#FFE9CF;strokeColor=#C26A00;strokeWidth=2;fontSize=10;" value="&lt;b&gt;HCM Recruiting APIs&lt;/b&gt;&lt;br&gt;Candidates · resumes · requisitions · job profiles" vertex="1">
+          <mxGeometry height="100" width="380" x="330" y="72" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-64" parent="bVKumJbvJyEJEweoQE7_-57" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#D5F2EF;strokeColor=#1BA39C;strokeWidth=2;fontSize=10;" value="&lt;b&gt;Event-Management Platform&lt;/b&gt;&lt;br&gt;OAuth2 REST · sessions in, registrations out" vertex="1">
+          <mxGeometry height="100" width="380" x="330" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-65" parent="bVKumJbvJyEJEweoQE7_-57" style="rounded=1;arcSize=3;whiteSpace=wrap;html=1;fillColor=#F8F8F8;strokeColor=#808080;strokeWidth=2;dashed=1;dashPattern=1 3;fontSize=12;fontStyle=1;fontColor=#555555;align=center;verticalAlign=top;spacingLeft=10;spacingTop=4;" value="FILES: MFT (CSV / PGP)" vertex="1">
+          <mxGeometry height="246" width="400" x="730" y="44" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-66" parent="bVKumJbvJyEJEweoQE7_-57" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#E3F1FB;strokeColor=#3C8DBC;strokeWidth=2;fontSize=10;" value="&lt;b&gt;Learning Management System&lt;/b&gt;&lt;br&gt;Session files in · encrypted enrollment files back" vertex="1">
+          <mxGeometry height="100" width="380" x="740" y="72" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-67" parent="bVKumJbvJyEJEweoQE7_-57" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#EFEBE9;strokeColor=#8D6E63;strokeWidth=2;fontSize=10;" value="&lt;b&gt;Telecom Vendor&lt;/b&gt;&lt;br&gt;Daily contact-data file (pipe-delimited)" vertex="1">
+          <mxGeometry height="100" width="380" x="740" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-68" parent="0" value="3 · Ingestion" />
+        <mxCell id="bVKumJbvJyEJEweoQE7_-69" parent="bVKumJbvJyEJEweoQE7_-68" style="swimlane;whiteSpace=wrap;html=1;startSize=34;fillColor=#D5E8D4;strokeColor=#82B366;fontStyle=1;fontSize=14;align=center;spacingLeft=14;swimlaneFillColor=#FAFDF9;rounded=1;arcSize=1;collapsible=1;" value="INGESTION · PLATFORM 1: Dependency-driven nightly batch (iPaaS for APIs + ETL tool for files and loads)" vertex="1">
+          <mxGeometry height="420" width="1140" x="40" y="660" as="geometry">
+            <mxRectangle height="34" width="800" x="40" y="660" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-70" parent="bVKumJbvJyEJEweoQE7_-69" style="shape=step;perimeter=stepPerimeter;size=0.08;whiteSpace=wrap;html=1;fillColor=#F8CECC;strokeColor=#B85450;strokeWidth=2;fontSize=10;" value="&lt;b&gt;① Preload&lt;/b&gt;&lt;br&gt;set extraction window" vertex="1">
+          <mxGeometry height="56" width="190" x="10" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-71" parent="bVKumJbvJyEJEweoQE7_-69" style="shape=step;perimeter=stepPerimeter;size=0.08;whiteSpace=wrap;html=1;fillColor=#FFE0B2;strokeColor=#E07A00;strokeWidth=2;fontSize=10;" value="&lt;b&gt;② API extract&lt;/b&gt;&lt;br&gt;staggered calls → flatten" vertex="1">
+          <mxGeometry height="56" width="190" x="196" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-72" parent="bVKumJbvJyEJEweoQE7_-69" style="shape=step;perimeter=stepPerimeter;size=0.08;whiteSpace=wrap;html=1;fillColor=#E0F2F1;strokeColor=#2E8B7A;strokeWidth=2;fontSize=10;" value="&lt;b&gt;③ File extract&lt;/b&gt;&lt;br&gt;SFTP / MFT · own cadence" vertex="1">
+          <mxGeometry height="56" width="190" x="382" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-73" parent="bVKumJbvJyEJEweoQE7_-69" style="shape=step;perimeter=stepPerimeter;size=0.08;whiteSpace=wrap;html=1;fillColor=#E8EAF6;strokeColor=#3949AB;strokeWidth=2;fontSize=10;" value="&lt;b&gt;④ ODS deploy&lt;/b&gt;&lt;br&gt;stored-procedure transforms" vertex="1">
+          <mxGeometry height="56" width="190" x="568" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-74" parent="bVKumJbvJyEJEweoQE7_-69" style="shape=step;perimeter=stepPerimeter;size=0.08;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1E88E5;strokeWidth=2;fontSize=10;" value="&lt;b&gt;⑤ CDC load&lt;/b&gt;&lt;br&gt;snapshot → delta → upsert" vertex="1">
+          <mxGeometry height="56" width="190" x="754" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-75" parent="bVKumJbvJyEJEweoQE7_-69" style="shape=step;perimeter=stepPerimeter;size=0.08;whiteSpace=wrap;html=1;fillColor=#D0CEE2;strokeColor=#56517E;strokeWidth=2;fontSize=10;" value="&lt;b&gt;⑥ Postload&lt;/b&gt;&lt;br&gt;advance window on success" vertex="1">
+          <mxGeometry height="56" width="190" x="940" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-76" parent="bVKumJbvJyEJEweoQE7_-69" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E07A00;strokeWidth=2;fontSize=10;align=left;verticalAlign=top;spacingLeft=8;spacingTop=4;spacingRight=6;" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;API extraction&lt;/b&gt;&lt;/div&gt;&lt;hr&gt;• Per worker domain: incremental · effective-dated · future-dated pulls&lt;br&gt;• Reference + custom-report workflows&lt;br&gt;• Window = last success − overlap buffer (eventual consistency)&lt;br&gt;• Staggered to respect API connection limits&lt;br&gt;• Hierarchical XML → PK/FK tables, no business logic" vertex="1">
+          <mxGeometry height="170" width="363" x="10" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-77" parent="bVKumJbvJyEJEweoQE7_-69" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#2E8B7A;strokeWidth=2;fontSize=10;align=left;verticalAlign=top;spacingLeft=8;spacingTop=4;spacingRight=6;" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;File extraction&lt;/b&gt;&lt;/div&gt;&lt;hr&gt;• Vendor files via SFTP / MFT, key auth, retries&lt;br&gt;• Timestamped archive · stale-file rejection&lt;br&gt;• Ordered loads where totals depend on each other&lt;br&gt;• Run-log idempotency for cumulative feeds&lt;br&gt;• Restricted feed: atomic replace, a failed load keeps prior data" vertex="1">
+          <mxGeometry height="170" width="363" x="383" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-78" parent="bVKumJbvJyEJEweoQE7_-69" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#56517E;strokeWidth=2;fontSize=10;align=left;verticalAlign=top;spacingLeft=8;spacingTop=4;spacingRight=6;" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;Orchestration&lt;/b&gt;&lt;/div&gt;&lt;hr style=&quot;text-align: center;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;• Enterprise scheduler: a small number of anchor jobs start on a clock, everything else on dependency&lt;/span&gt;&lt;/div&gt;• Scheduler job → orchestrator → wrapper → ETL session&lt;br&gt;• Config-driven dependency graph (chains · fan-out · gates)&lt;br&gt;• Pause / retry / resume flags · run audit&lt;br&gt;• Completion time moves with daily change volume" vertex="1">
+          <mxGeometry height="170" width="374" x="756" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-79" parent="bVKumJbvJyEJEweoQE7_-69" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#F1F8EE;strokeColor=#82B366;strokeWidth=2;fontSize=10;align=left;spacingLeft=10;" value="&lt;b&gt;State control:&lt;/b&gt;&amp;nbsp;The extraction window only advances when every job succeeds. A failed night re-runs the same window → &lt;b&gt;no data gaps&lt;/b&gt;. Only the daily delta (a small share of rows) reaches the load step" vertex="1">
+          <mxGeometry height="56" width="1120" x="10" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-80" parent="bVKumJbvJyEJEweoQE7_-69" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=10;fontStyle=2;fontColor=#555555;spacingLeft=10;" value="Transform detail → Storage row · CDC detail → Processing row" vertex="1">
+          <mxGeometry height="40" width="1120" x="10" y="366" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-81" parent="bVKumJbvJyEJEweoQE7_-68" style="swimlane;whiteSpace=wrap;html=1;startSize=34;fillColor=#D5E8D4;strokeColor=#82B366;fontStyle=1;fontSize=14;align=center;spacingLeft=14;swimlaneFillColor=#FAFDF9;rounded=1;arcSize=1;collapsible=1;" value="INGESTION · PLATFORM 2: Four independent integrations (Spark notebooks + Own job scheduler)" vertex="1">
+          <mxGeometry height="420" width="1140" x="1220" y="660" as="geometry">
+            <mxRectangle height="34" width="800" x="1220" y="660" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-82" parent="bVKumJbvJyEJEweoQE7_-81" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#E07A00;strokeColor=none;fontColor=#FFFFFF;fontSize=10;" value="&lt;b&gt;1 · Hire events&lt;/b&gt;&lt;br&gt;Event-driven · every ~2 h" vertex="1">
+          <mxGeometry height="62" width="200" x="10" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-83" parent="bVKumJbvJyEJEweoQE7_-81" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#E07A00;strokeWidth=2;fontSize=10;" value="&lt;b&gt;Queue collector&lt;/b&gt;&lt;br&gt;batch pull · archive raw" vertex="1">
+          <mxGeometry height="62" width="205" x="225" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-84" parent="bVKumJbvJyEJEweoQE7_-81" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#E07A00;strokeWidth=2;fontSize=10;" value="&lt;b&gt;Event handler&lt;/b&gt;&lt;br&gt;dedupe · enrich via HCM API" vertex="1">
+          <mxGeometry height="62" width="205" x="450" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-85" parent="bVKumJbvJyEJEweoQE7_-81" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#E07A00;strokeWidth=2;fontSize=10;" value="&lt;b&gt;Routing rules&lt;/b&gt;&lt;br&gt;which services apply" vertex="1">
+          <mxGeometry height="62" width="205" x="675" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-86" parent="bVKumJbvJyEJEweoQE7_-81" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#E07A00;strokeWidth=2;fontSize=10;" value="&lt;b&gt;Operational DB&lt;/b&gt;&lt;br&gt;status rows · services poll" vertex="1">
+          <mxGeometry height="62" width="205" x="900" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-87" edge="1" parent="bVKumJbvJyEJEweoQE7_-81" source="bVKumJbvJyEJEweoQE7_-83" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeWidth=2;strokeColor=#E07A00;endArrow=block;endFill=1;flowAnimation=1;" target="bVKumJbvJyEJEweoQE7_-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-88" edge="1" parent="bVKumJbvJyEJEweoQE7_-81" source="bVKumJbvJyEJEweoQE7_-84" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeWidth=2;strokeColor=#E07A00;endArrow=block;endFill=1;flowAnimation=1;" target="bVKumJbvJyEJEweoQE7_-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-89" edge="1" parent="bVKumJbvJyEJEweoQE7_-81" source="bVKumJbvJyEJEweoQE7_-85" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeWidth=2;strokeColor=#E07A00;endArrow=block;endFill=1;flowAnimation=1;" target="bVKumJbvJyEJEweoQE7_-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-90" parent="bVKumJbvJyEJEweoQE7_-81" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#D81B60;strokeColor=none;fontColor=#FFFFFF;fontSize=10;" value="&lt;b&gt;2 · Recruiting sync&lt;/b&gt;&lt;br&gt;API pull · every 1–6 h" vertex="1">
+          <mxGeometry height="62" width="200" x="10" y="126" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-91" parent="bVKumJbvJyEJEweoQE7_-81" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#FCE4EC;strokeColor=#D81B60;strokeWidth=2;fontSize=10;" value="&lt;b&gt;Delta window&lt;/b&gt;&lt;br&gt;since last success" vertex="1">
+          <mxGeometry height="62" width="205" x="225" y="126" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-92" parent="bVKumJbvJyEJEweoQE7_-81" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#FCE4EC;strokeColor=#D81B60;strokeWidth=2;fontSize=10;" value="&lt;b&gt;API extract&lt;/b&gt;&lt;br&gt;candidates · requisitions" vertex="1">
+          <mxGeometry height="62" width="205" x="450" y="126" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-93" parent="bVKumJbvJyEJEweoQE7_-81" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#FCE4EC;strokeColor=#D81B60;strokeWidth=2;fontSize=10;" value="&lt;b&gt;Status mapping&lt;/b&gt;&lt;br&gt;+ resume fetch" vertex="1">
+          <mxGeometry height="62" width="205" x="675" y="126" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-94" parent="bVKumJbvJyEJEweoQE7_-81" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#FCE4EC;strokeColor=#D81B60;strokeWidth=2;fontSize=10;" value="&lt;b&gt;CSV → MFT&lt;/b&gt;&lt;br&gt;→ recruiting CRM" vertex="1">
+          <mxGeometry height="62" width="205" x="900" y="126" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-95" edge="1" parent="bVKumJbvJyEJEweoQE7_-81" source="bVKumJbvJyEJEweoQE7_-91" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeWidth=2;strokeColor=#D81B60;endArrow=block;endFill=1;flowAnimation=1;" target="bVKumJbvJyEJEweoQE7_-92">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-96" edge="1" parent="bVKumJbvJyEJEweoQE7_-81" source="bVKumJbvJyEJEweoQE7_-92" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeWidth=2;strokeColor=#D81B60;endArrow=block;endFill=1;flowAnimation=1;" target="bVKumJbvJyEJEweoQE7_-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-97" edge="1" parent="bVKumJbvJyEJEweoQE7_-81" source="bVKumJbvJyEJEweoQE7_-93" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeWidth=2;strokeColor=#D81B60;endArrow=block;endFill=1;flowAnimation=1;" target="bVKumJbvJyEJEweoQE7_-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-98" parent="bVKumJbvJyEJEweoQE7_-81" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#3C8DBC;strokeColor=none;fontColor=#FFFFFF;fontSize=10;" value="&lt;b&gt;3 · LMS ⇄ event platform&lt;/b&gt;&lt;br&gt;Bi-directional · every ~3 h" vertex="1">
+          <mxGeometry height="62" width="200" x="10" y="204" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-99" parent="bVKumJbvJyEJEweoQE7_-81" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#E3F1FB;strokeColor=#3C8DBC;strokeWidth=2;fontSize=10;" value="&lt;b&gt;Session file in&lt;/b&gt;&lt;br&gt;validate schema" vertex="1">
+          <mxGeometry height="62" width="205" x="225" y="204" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-100" parent="bVKumJbvJyEJEweoQE7_-81" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#E3F1FB;strokeColor=#3C8DBC;strokeWidth=2;fontSize=10;" value="&lt;b&gt;Event-platform API&lt;/b&gt;&lt;br&gt;create / update sessions" vertex="1">
+          <mxGeometry height="62" width="205" x="450" y="204" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-101" parent="bVKumJbvJyEJEweoQE7_-81" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#E3F1FB;strokeColor=#3C8DBC;strokeWidth=2;fontSize=10;" value="&lt;b&gt;Registrations pull&lt;/b&gt;&lt;br&gt;trigger-file hand-off" vertex="1">
+          <mxGeometry height="62" width="205" x="675" y="204" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-102" parent="bVKumJbvJyEJEweoQE7_-81" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#E3F1FB;strokeColor=#3C8DBC;strokeWidth=2;fontSize=10;" value="&lt;b&gt;Encrypted files&lt;/b&gt;&lt;br&gt;→ MFT → LMS" vertex="1">
+          <mxGeometry height="62" width="205" x="900" y="204" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-103" edge="1" parent="bVKumJbvJyEJEweoQE7_-81" source="bVKumJbvJyEJEweoQE7_-99" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeWidth=2;strokeColor=#3C8DBC;endArrow=block;endFill=1;flowAnimation=1;" target="bVKumJbvJyEJEweoQE7_-100">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-104" edge="1" parent="bVKumJbvJyEJEweoQE7_-81" source="bVKumJbvJyEJEweoQE7_-100" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeWidth=2;strokeColor=#F57F17;dashed=1;endArrow=block;endFill=1;flowAnimation=1;" target="bVKumJbvJyEJEweoQE7_-101">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-105" edge="1" parent="bVKumJbvJyEJEweoQE7_-81" source="bVKumJbvJyEJEweoQE7_-101" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeWidth=2;strokeColor=#3C8DBC;endArrow=block;endFill=1;flowAnimation=1;" target="bVKumJbvJyEJEweoQE7_-102">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-106" parent="bVKumJbvJyEJEweoQE7_-81" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#8D6E63;strokeColor=none;fontColor=#FFFFFF;fontSize=10;" value="&lt;b&gt;4 · Contact sync&lt;/b&gt;&lt;br&gt;File-based · daily" vertex="1">
+          <mxGeometry height="62" width="200" x="10" y="282" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-107" parent="bVKumJbvJyEJEweoQE7_-81" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#EFEBE9;strokeColor=#8D6E63;strokeWidth=2;fontSize=10;" value="&lt;b&gt;Vendor file&lt;/b&gt;&lt;br&gt;schema check" vertex="1">
+          <mxGeometry height="62" width="205" x="225" y="282" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-108" parent="bVKumJbvJyEJEweoQE7_-81" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#EFEBE9;strokeColor=#8D6E63;strokeWidth=2;fontSize=10;" value="&lt;b&gt;Compare&lt;/b&gt;&lt;br&gt;insert · update · delete" vertex="1">
+          <mxGeometry height="62" width="205" x="450" y="282" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-109" parent="bVKumJbvJyEJEweoQE7_-81" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1565C0;strokeWidth=2;fontSize=10;" value="&lt;b&gt;Resolve worker&lt;/b&gt;&lt;br&gt;read-only DW lookup" vertex="1">
+          <mxGeometry height="62" width="205" x="675" y="282" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-110" parent="bVKumJbvJyEJEweoQE7_-81" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#EFEBE9;strokeColor=#8D6E63;strokeWidth=2;fontSize=10;" value="&lt;b&gt;HCM API&lt;/b&gt;&lt;br&gt;write-back (the only one)" vertex="1">
+          <mxGeometry height="62" width="205" x="900" y="282" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-111" edge="1" parent="bVKumJbvJyEJEweoQE7_-81" source="bVKumJbvJyEJEweoQE7_-107" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeWidth=2;strokeColor=#8D6E63;endArrow=block;endFill=1;flowAnimation=1;" target="bVKumJbvJyEJEweoQE7_-108">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-112" edge="1" parent="bVKumJbvJyEJEweoQE7_-81" source="bVKumJbvJyEJEweoQE7_-108" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeWidth=2;strokeColor=#8D6E63;endArrow=block;endFill=1;flowAnimation=1;" target="bVKumJbvJyEJEweoQE7_-109">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-113" edge="1" parent="bVKumJbvJyEJEweoQE7_-81" source="bVKumJbvJyEJEweoQE7_-109" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeWidth=2;strokeColor=#8D6E63;endArrow=block;endFill=1;flowAnimation=1;" target="bVKumJbvJyEJEweoQE7_-110">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-114" parent="bVKumJbvJyEJEweoQE7_-81" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#F1F8EE;strokeColor=#82B366;strokeWidth=2;fontSize=10;align=left;spacingLeft=10;" value="&lt;b&gt;Common to all four:&lt;/b&gt;&amp;nbsp;Watermark per job · Per-record error isolation · Token refresh + retries · Run log PENDING → SUCCESS / FAILED · Max data lag of a few hours · Independent of the Platform 1 scheduler" vertex="1">
+          <mxGeometry height="50" width="1120" x="10" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-115" parent="0" value="4 · Storage" />
+        <mxCell id="bVKumJbvJyEJEweoQE7_-116" parent="bVKumJbvJyEJEweoQE7_-115" style="swimlane;whiteSpace=wrap;html=1;startSize=34;fillColor=#FFF2CC;strokeColor=#D6B656;fontStyle=1;fontSize=14;align=center;spacingLeft=14;swimlaneFillColor=#FFFDF5;rounded=1;arcSize=1;collapsible=1;" value="STORAGE · PLATFORM 1: Operational Data Stores (Temporal family + Domain stores)" vertex="1">
+          <mxGeometry height="380" width="1140" x="40" y="1110" as="geometry">
+            <mxRectangle height="34" width="800" x="40" y="1110" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-117" parent="bVKumJbvJyEJEweoQE7_-116" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=10;fillColor=#ECEFF1;strokeColor=#78909C;strokeWidth=2;fontSize=10;" value="&lt;b&gt;History ODS&lt;/b&gt;&lt;br&gt;Append-only daily snapshot + Point-in-time rebuild" vertex="1">
+          <mxGeometry height="130" width="180" x="10" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-118" parent="bVKumJbvJyEJEweoQE7_-116" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=10;fillColor=#FFE082;strokeColor=#D6B656;strokeWidth=3;fontSize=10;" value="&lt;b&gt;Current ODS ★&lt;/b&gt;&lt;br&gt;Changes since last successful run(typically last 24 h) + Runs all transforms + Code committed here" vertex="1">
+          <mxGeometry height="130" width="178" x="236" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-119" parent="bVKumJbvJyEJEweoQE7_-116" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=10;fillColor=#FFF2CC;strokeColor=#D6B656;strokeWidth=2;fontSize=10;" value="&lt;b&gt;Effective-dated ODS&lt;/b&gt;&lt;br&gt;Back-dated corrections + Merges missing rows back" vertex="1">
+          <mxGeometry height="130" width="176" x="467" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-120" parent="bVKumJbvJyEJEweoQE7_-116" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=10;fillColor=#E8F5E9;strokeColor=#558B2F;strokeWidth=2;fontSize=10;" value="&lt;b&gt;Future-dated ODS&lt;/b&gt;&lt;br&gt;Next N days includes hires, moves, exits" vertex="1">
+          <mxGeometry height="130" width="174" x="688" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-121" parent="bVKumJbvJyEJEweoQE7_-116" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=10;fillColor=#F3E5F5;strokeColor=#7B1FA2;strokeWidth=2;dashed=1;fontSize=10;" value="&lt;b&gt;Full ODS&lt;/b&gt;&lt;br&gt;Complete extract + Ad-hoc recovery" vertex="1">
+          <mxGeometry height="130" width="192" x="909" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-122" edge="1" parent="bVKumJbvJyEJEweoQE7_-116" source="bVKumJbvJyEJEweoQE7_-118" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeWidth=1.5;dashed=1;dashPattern=1 3;strokeColor=#9673A6;endArrow=block;endFill=1;flowAnimation=1;fontSize=9;labelBackgroundColor=#FFFDF5;" target="bVKumJbvJyEJEweoQE7_-117" value="daily">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-123" edge="1" parent="bVKumJbvJyEJEweoQE7_-116" source="bVKumJbvJyEJEweoQE7_-119" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeWidth=2.5;strokeColor=#D79B00;endArrow=block;endFill=1;flowAnimation=1;fontSize=9;labelBackgroundColor=#FFFDF5;" target="bVKumJbvJyEJEweoQE7_-118" value="merge">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-124" edge="1" parent="bVKumJbvJyEJEweoQE7_-116" source="bVKumJbvJyEJEweoQE7_-121" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeWidth=1.5;dashed=1;strokeColor=#999999;endArrow=block;endFill=1;fontSize=9;labelBackgroundColor=#FFFDF5;exitX=0.5;exitY=1;entryX=0.5;entryY=1;" target="bVKumJbvJyEJEweoQE7_-118" value="ad-hoc recovery">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1004" y="196" />
+              <mxPoint x="338" y="196" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-125" parent="bVKumJbvJyEJEweoQE7_-116" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D79B00;strokeWidth=2;fontSize=10;align=left;verticalAlign=top;spacingLeft=8;spacingTop=4;spacingRight=6;" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;Transformation Engine (Shared stored procedures, 4 tiers)&lt;/b&gt;&lt;/div&gt;&lt;hr&gt;① Reference lookups (parallel) → ② Core worker records → ③ Staging enrichment + code translation → ④ Cross-database infrastructure (copies, merges, threshold gates)&lt;br&gt;• Same code in every ODS · Database-aware logic · Metadata-driven dynamic SQL&lt;br&gt;• Full refresh + append-only history · Row-count gates" vertex="1">
+          <mxGeometry height="110" width="740" x="10" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-126" parent="bVKumJbvJyEJEweoQE7_-116" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D6B656;strokeWidth=2;fontSize=10;align=left;verticalAlign=top;spacingLeft=8;spacingTop=4;spacingRight=6;" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;Domain ODS (One per vendor feed)&lt;/b&gt;&lt;/div&gt;&lt;hr&gt;Payroll · benefits · time · 🔒 Restricted feed&lt;br&gt;• Merge upsert or atomic replace&lt;br&gt;• Cross-database reads for tax location, balances, worker IDs" vertex="1">
+          <mxGeometry height="110" width="370" x="760" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-127" parent="bVKumJbvJyEJEweoQE7_-116" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#FFF8E1;strokeColor=#D6B656;fontSize=10;align=left;spacingLeft=10;" value="&lt;b&gt;Output →&lt;/b&gt;&amp;nbsp;Staging tables ready for CDC (Processing row)" vertex="1">
+          <mxGeometry height="40" width="1120" x="10" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-128" parent="bVKumJbvJyEJEweoQE7_-115" style="swimlane;whiteSpace=wrap;html=1;startSize=34;fillColor=#FFF2CC;strokeColor=#D6B656;fontStyle=1;fontSize=14;align=center;spacingLeft=14;swimlaneFillColor=#FFFDF5;rounded=1;arcSize=1;collapsible=1;" value="STORAGE · PLATFORM 2: Operational DBs, landing zones, config + secrets, raw capture" vertex="1">
+          <mxGeometry height="380" width="1140" x="1218" y="1110" as="geometry">
+            <mxRectangle height="34" width="800" x="1220" y="1110" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-129" parent="bVKumJbvJyEJEweoQE7_-128" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=10;fillColor=#FFF1E0;strokeColor=#E07A00;strokeWidth=2;fontSize=10;" value="&lt;b&gt;Shared Operational DB&lt;/b&gt;&lt;br&gt;Event log · worker snapshot · service status · run logs (integrations 1, 2, 4)" vertex="1">
+          <mxGeometry height="120" width="266" x="10" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-130" parent="bVKumJbvJyEJEweoQE7_-128" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=10;fillColor=#E3F1FB;strokeColor=#3C8DBC;strokeWidth=2;dashed=1;fontSize=10;" value="&lt;b&gt;Dedicated DB&lt;/b&gt;&lt;br&gt;LMS / event-platform state (integration 3)" vertex="1">
+          <mxGeometry height="120" width="266" x="288" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-131" parent="bVKumJbvJyEJEweoQE7_-128" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=10;fillColor=#F1F8E9;strokeColor=#558B2F;strokeWidth=2;fontSize=10;" value="&lt;b&gt;Read-only lookups&lt;/b&gt;&lt;br&gt;DW curated store + data mart · never written" vertex="1">
+          <mxGeometry height="120" width="266" x="566" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-132" parent="bVKumJbvJyEJEweoQE7_-128" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#0078D4;strokeWidth=2;fontSize=10;" value="&lt;b&gt;🔑 Secrets vault&lt;/b&gt;&lt;br&gt;Per-scope credentials · no secrets in code" vertex="1">
+          <mxGeometry height="120" width="266" x="844" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-133" parent="bVKumJbvJyEJEweoQE7_-128" style="shape=folder;tabWidth=80;tabHeight=14;tabPosition=left;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#808080;strokeWidth=2;fontSize=10;" value="&lt;b&gt;📥 Landing volumes&lt;/b&gt;&lt;br&gt;Incoming → processing → archive · raw events · API audit" vertex="1">
+          <mxGeometry height="100" width="360" x="10" y="186" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-134" parent="bVKumJbvJyEJEweoQE7_-128" style="shape=folder;tabWidth=80;tabHeight=14;tabPosition=left;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#808080;strokeWidth=2;fontSize=10;" value="&lt;b&gt;📤 File share + MFT&lt;/b&gt;&lt;br&gt;Inbound vendor files · outbound CSV / encrypted files" vertex="1">
+          <mxGeometry height="100" width="360" x="380" y="186" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-135" parent="bVKumJbvJyEJEweoQE7_-128" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#808080;strokeWidth=2;fontSize=10;" value="&lt;b&gt;⚙ Config + work queues&lt;/b&gt;&lt;br&gt;JSON per environment · watermarks · Delta work queues" vertex="1">
+          <mxGeometry height="100" width="360" x="750" y="186" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-136" parent="bVKumJbvJyEJEweoQE7_-128" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#E8C39E;strokeColor=#8D6E63;strokeWidth=2;fontSize=10;align=left;spacingLeft=10;" value="&lt;b&gt;→ BRONZE hand-off:&lt;/b&gt;&amp;nbsp;Operational tables (JDBC, timestamp delta) + volume files (de-dup by name) + raw events land append-only in the Lakehouse (Analytics row)" vertex="1">
+          <mxGeometry height="66" width="1120" x="10" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-137" parent="0" value="5 · Processing" />
+        <mxCell id="bVKumJbvJyEJEweoQE7_-138" parent="bVKumJbvJyEJEweoQE7_-137" style="swimlane;whiteSpace=wrap;html=1;startSize=34;fillColor=#F8CECC;strokeColor=#B85450;fontStyle=1;fontSize=14;align=center;spacingLeft=14;swimlaneFillColor=#FFF8F8;rounded=1;arcSize=1;collapsible=1;" value="PROCESSING · PLATFORM 1: CDC bridge → Curated data store (Single source of truth)" vertex="1">
+          <mxGeometry height="300" width="1140" x="40" y="1520" as="geometry">
+            <mxRectangle height="34" width="800" x="40" y="1520" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-139" parent="bVKumJbvJyEJEweoQE7_-138" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=7;fillColor=#FFF2CC;strokeColor=#D6B656;strokeWidth=2;fontSize=10;" value="&lt;b&gt;ODS staging&lt;/b&gt;&lt;br&gt;Enriched, ready" vertex="1">
+          <mxGeometry height="64" width="176" x="10" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-140" parent="bVKumJbvJyEJEweoQE7_-138" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#F8CECC;strokeColor=#B85450;strokeWidth=2;fontSize=10;" value="&lt;b&gt;① Snapshot&lt;/b&gt;&lt;br&gt;Truncate + insert into bridge" vertex="1">
+          <mxGeometry height="64" width="176" x="241" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-141" parent="bVKumJbvJyEJEweoQE7_-138" style="rhombus;whiteSpace=wrap;html=1;fillColor=#F8CECC;strokeColor=#B85450;strokeWidth=2;fontSize=10;" value="&lt;b&gt;② Delta detect&lt;/b&gt;&lt;br&gt;Set-based EXCEPT" vertex="1">
+          <mxGeometry height="76" width="176" x="472" y="44" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-142" parent="bVKumJbvJyEJEweoQE7_-138" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#B85450;strokeWidth=2;fontSize=10;" value="&lt;b&gt;③ Upsert + history&lt;/b&gt;&lt;br&gt;Insert + update + append" vertex="1">
+          <mxGeometry height="64" width="176" x="703" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-143" parent="bVKumJbvJyEJEweoQE7_-138" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=7;fillColor=#E1D5E7;strokeColor=#9673A6;strokeWidth=3;fontSize=10;" value="&lt;b&gt;Curated store&lt;/b&gt;&lt;br&gt;Current + history" vertex="1">
+          <mxGeometry height="64" width="176" x="934" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-144" edge="1" parent="bVKumJbvJyEJEweoQE7_-138" source="bVKumJbvJyEJEweoQE7_-139" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeWidth=2;strokeColor=#B85450;endArrow=block;endFill=1;flowAnimation=1;" target="bVKumJbvJyEJEweoQE7_-140">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-145" edge="1" parent="bVKumJbvJyEJEweoQE7_-138" source="bVKumJbvJyEJEweoQE7_-140" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeWidth=2;strokeColor=#B85450;endArrow=block;endFill=1;flowAnimation=1;" target="bVKumJbvJyEJEweoQE7_-141">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-146" edge="1" parent="bVKumJbvJyEJEweoQE7_-138" source="bVKumJbvJyEJEweoQE7_-141" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeWidth=2;strokeColor=#B85450;endArrow=block;endFill=1;flowAnimation=1;fontSize=9;labelBackgroundColor=#FFF8F8;" target="bVKumJbvJyEJEweoQE7_-142" value="Δ rows">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-147" edge="1" parent="bVKumJbvJyEJEweoQE7_-138" source="bVKumJbvJyEJEweoQE7_-142" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeWidth=4;strokeColor=#B85450;endArrow=block;endFill=1;flowAnimation=1;" target="bVKumJbvJyEJEweoQE7_-143">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-148" parent="bVKumJbvJyEJEweoQE7_-138" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#B85450;fontSize=10;align=left;verticalAlign=top;spacingLeft=8;spacingTop=4;spacingRight=6;" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;⚖ Compare rules&lt;/b&gt;&lt;/div&gt;&lt;hr&gt;• Volatile columns (load stamps, effective dates) excluded → no false deltas&lt;br&gt;• Wide entities compared once per night&lt;br&gt;• Lookups soft-inactivated, never hard-deleted" vertex="1">
+          <mxGeometry height="110" width="363" x="10" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-149" parent="bVKumJbvJyEJEweoQE7_-138" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#B85450;dashed=1;fontSize=10;align=left;verticalAlign=top;spacingLeft=8;spacingTop=4;spacingRight=6;" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;↪ Variants&lt;/b&gt;&lt;/div&gt;&lt;hr style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;• Restricted feed: Atomic delete + insert&lt;/span&gt;&lt;/div&gt;• Future-dated data: Truncate + reload (rolling window)&lt;br&gt;• New-hire effectuation: Future → current on the hire date" vertex="1">
+          <mxGeometry height="110" width="363" x="383" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-150" parent="bVKumJbvJyEJEweoQE7_-138" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#9673A6;strokeWidth=2;fontSize=10;align=left;verticalAlign=top;spacingLeft=8;spacingTop=4;spacingRight=6;" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;🗄 Curated store&lt;/b&gt;&lt;/div&gt;&lt;hr&gt;• Schemas separated by sensitivity tier&lt;br&gt;• SCD2 history for core worker entities&lt;br&gt;• Raw tables never exposed to consumers" vertex="1">
+          <mxGeometry height="110" width="374" x="756" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-151" parent="bVKumJbvJyEJEweoQE7_-138" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#B85450;strokeWidth=2;fontSize=10;align=left;spacingLeft=10;" value="&lt;b&gt;Output →&lt;/b&gt;&amp;nbsp;Downstream feeds (Delivery row) + Warehouse ETL (Analytics row). Both start when the nightly pipeline completes" vertex="1">
+          <mxGeometry height="40" width="1120" x="10" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-152" parent="bVKumJbvJyEJEweoQE7_-137" style="swimlane;whiteSpace=wrap;html=1;startSize=34;fillColor=#EFEBE9;strokeColor=#8D6E63;fontStyle=1;fontSize=14;align=center;spacingLeft=14;swimlaneFillColor=#FCFAF9;rounded=1;arcSize=1;collapsible=1;" value="PROCESSING · PLATFORM 2: Per-record rules, status tracking and recovery" vertex="1">
+          <mxGeometry height="300" width="1140" x="1220" y="1520" as="geometry">
+            <mxRectangle height="34" width="800" x="1220" y="1520" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-153" parent="bVKumJbvJyEJEweoQE7_-152" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;strokeWidth=2;fontSize=10;" value="Job run log&lt;br&gt;&lt;b&gt;PENDING&lt;/b&gt;" vertex="1">
+          <mxGeometry height="70" width="180" x="10" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-154" parent="bVKumJbvJyEJEweoQE7_-152" style="rounded=1;arcSize=40;whiteSpace=wrap;html=1;fillColor=#C8E6C9;strokeColor=#2E7D32;strokeWidth=2;fontSize=10;fontStyle=1;" value="SUCCESS" vertex="1">
+          <mxGeometry height="30" width="150" x="240" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-155" parent="bVKumJbvJyEJEweoQE7_-152" style="rounded=1;arcSize=40;whiteSpace=wrap;html=1;fillColor=#FFCDD2;strokeColor=#C62828;strokeWidth=2;fontSize=10;fontStyle=1;" value="FAILED" vertex="1">
+          <mxGeometry height="30" width="150" x="240" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-156" edge="1" parent="bVKumJbvJyEJEweoQE7_-152" source="bVKumJbvJyEJEweoQE7_-153" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeWidth=2;strokeColor=#2E7D32;endArrow=block;endFill=1;exitX=1;exitY=0.25;entryX=0;entryY=0.5;" target="bVKumJbvJyEJEweoQE7_-154">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-157" edge="1" parent="bVKumJbvJyEJEweoQE7_-152" source="bVKumJbvJyEJEweoQE7_-153" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeWidth=2;strokeColor=#C62828;endArrow=block;endFill=1;exitX=1;exitY=0.75;entryX=0;entryY=0.5;" target="bVKumJbvJyEJEweoQE7_-155">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-158" parent="bVKumJbvJyEJEweoQE7_-152" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#8D6E63;strokeWidth=2;fontSize=10;align=left;spacingLeft=10;spacingRight=6;" value="&lt;b&gt;Tracking:&lt;/b&gt;&amp;nbsp;Run log per job with error message + trace · Per-record status · One bad record never stops the batch (except where an all-or-nothing API call is required)" vertex="1">
+          <mxGeometry height="70" width="710" x="420" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-159" parent="bVKumJbvJyEJEweoQE7_-152" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#8D6E63;fontSize=10;align=left;verticalAlign=top;spacingLeft=8;spacingTop=4;spacingRight=6;" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;📏 Business rules&lt;/b&gt;&lt;/div&gt;&lt;hr&gt;• Eligibility + routing per downstream service&lt;br&gt;• Status-mapping tables for recruiting stages&lt;br&gt;• Learner / instructor classification&lt;br&gt;• Primary-contact rebuild on delete" vertex="1">
+          <mxGeometry height="110" width="363" x="10" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-160" parent="bVKumJbvJyEJEweoQE7_-152" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E07A00;fontSize=10;align=left;verticalAlign=top;spacingLeft=8;spacingTop=4;spacingRight=6;" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;🔁 Recovery (one model per integration)&lt;/b&gt;&lt;/div&gt;&lt;hr&gt;• Automatic daily retry for future-dated failures&lt;br&gt;• Config-driven manual re-runs + catch-up job&lt;br&gt;• Failed files archived with an error suffix&lt;br&gt;• Manual reprocess job for write-back failures" vertex="1">
+          <mxGeometry height="110" width="363" x="383" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-161" parent="bVKumJbvJyEJEweoQE7_-152" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1565C0;fontSize=10;align=left;verticalAlign=top;spacingLeft=8;spacingTop=4;spacingRight=6;" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;🔗 Platform 1 dependency&lt;/b&gt;&lt;/div&gt;&lt;hr style=&quot;text-align: center;&quot;&gt;• Read-only lookups only · zero writes to Platform 1&lt;br&gt;• Own scheduler, not part of the nightly chain&lt;br&gt;• Gold stars get worker keys via federation" vertex="1">
+          <mxGeometry height="110" width="374" x="756" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-162" parent="bVKumJbvJyEJEweoQE7_-152" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#8D6E63;strokeWidth=2;fontSize=10;align=left;spacingLeft=10;" value="&lt;b&gt;Output →&lt;/b&gt;&amp;nbsp;Operational targets (Delivery row) + Bronze capture (Analytics row)" vertex="1">
+          <mxGeometry height="40" width="1120" x="10" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-163" parent="0" value="6 · Delivery" />
+        <mxCell id="bVKumJbvJyEJEweoQE7_-164" parent="bVKumJbvJyEJEweoQE7_-163" style="swimlane;whiteSpace=wrap;html=1;startSize=34;fillColor=#F5F5F5;strokeColor=#666666;fontStyle=1;fontSize=14;align=center;spacingLeft=14;swimlaneFillColor=#FCFCFC;rounded=1;arcSize=1;collapsible=1;" value="DELIVERY · PLATFORM 1: Outbound to many downstream systems, data-minimized per consumer" vertex="1">
+          <mxGeometry height="300" width="1140" x="40" y="1850" as="geometry">
+            <mxRectangle height="34" width="800" x="40" y="1850" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-165" parent="bVKumJbvJyEJEweoQE7_-164" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=10;" value="&lt;b&gt;Access rule:&lt;/b&gt;&amp;nbsp;Only the reporting data mart and the analytics team read tables directly · Everyone else gets a curated view or a file" vertex="1">
+          <mxGeometry height="36" width="1120" x="10" y="44" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-166" parent="bVKumJbvJyEJEweoQE7_-164" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;strokeWidth=2;fontSize=10;align=left;verticalAlign=top;spacingLeft=8;spacingTop=4;" value="&lt;div style=&quot;&quot;&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;Access type 1 · Direct tables&lt;/b&gt;&lt;/div&gt;&lt;hr&gt;• Reporting data mart&lt;br&gt;• Analytics team&lt;br&gt;• Strictly limited and audited" vertex="1">
+          <mxGeometry height="150" width="363" x="10" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-167" parent="bVKumJbvJyEJEweoQE7_-164" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;strokeWidth=2;fontSize=10;align=left;verticalAlign=top;spacingLeft=8;spacingTop=4;" value="&lt;div style=&quot;&quot;&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;Access type 2 · Curated views&lt;/b&gt;&lt;/div&gt;&lt;hr&gt;• One view per consumer, only the columns it needs&lt;br&gt;• e.g. workforce-change feed, expense pre-provisioning, onboarding, recognition" vertex="1">
+          <mxGeometry height="150" width="363" x="383" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-168" parent="bVKumJbvJyEJEweoQE7_-164" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D79B00;strokeWidth=2;fontSize=10;align=left;verticalAlign=top;spacingLeft=8;spacingTop=4;" value="&lt;b&gt;Access type 3 · File feeds&lt;/b&gt;&lt;hr&gt;• Packaged extracts via MFT&lt;br&gt;• Most start when the nightly pipeline completes&lt;br&gt;• 🔒 Restricted feeds: encrypted, restricted recipients&lt;br&gt;• Execution history for every run" vertex="1">
+          <mxGeometry height="150" width="374" x="756" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-169" parent="bVKumJbvJyEJEweoQE7_-164" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#666666;strokeWidth=2;fontSize=10;align=left;spacingLeft=10;" value="&lt;b&gt;Timing:&lt;/b&gt;&amp;nbsp;File feeds and the warehouse ETL start at the same point (pipeline end). A few mid-pipeline feeds start at earlier milestones" vertex="1">
+          <mxGeometry height="40" width="1120" x="10" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-170" parent="bVKumJbvJyEJEweoQE7_-163" style="swimlane;whiteSpace=wrap;html=1;startSize=34;fillColor=#F5F5F5;strokeColor=#666666;fontStyle=1;fontSize=14;align=center;spacingLeft=14;swimlaneFillColor=#FCFCFC;rounded=1;arcSize=1;collapsible=1;" value="DELIVERY · PLATFORM 2: Five delivery lanes to operational targets" vertex="1">
+          <mxGeometry height="300" width="1140" x="1220" y="1850" as="geometry">
+            <mxRectangle height="34" width="800" x="1220" y="1850" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-171" parent="bVKumJbvJyEJEweoQE7_-170" style="text;html=1;align=center;verticalAlign=middle;fontSize=10;fontStyle=1;fontColor=#555555;" value="INTEGRATION" vertex="1">
+          <mxGeometry height="20" width="230" x="10" y="44" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-172" parent="bVKumJbvJyEJEweoQE7_-170" style="text;html=1;align=center;verticalAlign=middle;fontSize=10;fontStyle=1;fontColor=#555555;" value="TRANSPORT" vertex="1">
+          <mxGeometry height="20" width="360" x="350" y="44" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-173" parent="bVKumJbvJyEJEweoQE7_-170" style="text;html=1;align=center;verticalAlign=middle;fontSize=10;fontStyle=1;fontColor=#555555;" value="TARGET" vertex="1">
+          <mxGeometry height="20" width="310" x="800" y="44" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-174" parent="bVKumJbvJyEJEweoQE7_-170" style="rounded=1;arcSize=30;whiteSpace=wrap;html=1;fillColor=#FFF1E0;strokeColor=#E07A00;strokeWidth=2;fontSize=10;fontStyle=1;" value="1 · Hire events" vertex="1">
+          <mxGeometry height="30" width="230" x="10" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-175" parent="bVKumJbvJyEJEweoQE7_-170" style="rounded=1;arcSize=30;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E07A00;strokeWidth=2;fontSize=10;" value="operational DB write · services poll status" vertex="1">
+          <mxGeometry height="30" width="360" x="350" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-176" parent="bVKumJbvJyEJEweoQE7_-170" style="rounded=1;arcSize=30;whiteSpace=wrap;html=1;fillColor=#ECEFF1;strokeColor=#607D8B;strokeWidth=2;fontSize=10;" value="Internal HR services" vertex="1">
+          <mxGeometry height="30" width="310" x="800" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-177" edge="1" parent="bVKumJbvJyEJEweoQE7_-170" source="bVKumJbvJyEJEweoQE7_-174" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeWidth=2;strokeColor=#E07A00;endArrow=block;endFill=1;flowAnimation=1;" target="bVKumJbvJyEJEweoQE7_-175">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-178" edge="1" parent="bVKumJbvJyEJEweoQE7_-170" source="bVKumJbvJyEJEweoQE7_-175" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeWidth=2;strokeColor=#E07A00;endArrow=block;endFill=1;flowAnimation=1;" target="bVKumJbvJyEJEweoQE7_-176">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-179" parent="bVKumJbvJyEJEweoQE7_-170" style="rounded=1;arcSize=30;whiteSpace=wrap;html=1;fillColor=#FCE4EC;strokeColor=#D81B60;strokeWidth=2;fontSize=10;fontStyle=1;" value="2 · Recruiting sync" vertex="1">
+          <mxGeometry height="30" width="230" x="10" y="104" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-180" parent="bVKumJbvJyEJEweoQE7_-170" style="rounded=1;arcSize=30;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D81B60;strokeWidth=2;fontSize=10;" value="CSV → file share → MFT" vertex="1">
+          <mxGeometry height="30" width="360" x="350" y="104" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-181" parent="bVKumJbvJyEJEweoQE7_-170" style="rounded=1;arcSize=30;whiteSpace=wrap;html=1;fillColor=#FCE4EC;strokeColor=#D81B60;strokeWidth=2;fontSize=10;" value="Recruiting CRM" vertex="1">
+          <mxGeometry height="30" width="310" x="800" y="104" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-182" edge="1" parent="bVKumJbvJyEJEweoQE7_-170" source="bVKumJbvJyEJEweoQE7_-179" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeWidth=2;strokeColor=#D81B60;endArrow=block;endFill=1;flowAnimation=1;" target="bVKumJbvJyEJEweoQE7_-180">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-183" edge="1" parent="bVKumJbvJyEJEweoQE7_-170" source="bVKumJbvJyEJEweoQE7_-180" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeWidth=2;strokeColor=#D81B60;endArrow=block;endFill=1;flowAnimation=1;" target="bVKumJbvJyEJEweoQE7_-181">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-184" parent="bVKumJbvJyEJEweoQE7_-170" style="rounded=1;arcSize=30;whiteSpace=wrap;html=1;fillColor=#D5F2EF;strokeColor=#1BA39C;strokeWidth=2;fontSize=10;fontStyle=1;" value="3 · Sessions out" vertex="1">
+          <mxGeometry height="30" width="230" x="10" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-185" parent="bVKumJbvJyEJEweoQE7_-170" style="rounded=1;arcSize=30;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1BA39C;strokeWidth=2;fontSize=10;" value="REST · OAuth2 client credentials" vertex="1">
+          <mxGeometry height="30" width="360" x="350" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-186" parent="bVKumJbvJyEJEweoQE7_-170" style="rounded=1;arcSize=30;whiteSpace=wrap;html=1;fillColor=#D5F2EF;strokeColor=#1BA39C;strokeWidth=2;fontSize=10;" value="Event-management platform" vertex="1">
+          <mxGeometry height="30" width="310" x="800" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-187" edge="1" parent="bVKumJbvJyEJEweoQE7_-170" source="bVKumJbvJyEJEweoQE7_-184" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeWidth=2;strokeColor=#1BA39C;endArrow=block;endFill=1;flowAnimation=1;" target="bVKumJbvJyEJEweoQE7_-185">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-188" edge="1" parent="bVKumJbvJyEJEweoQE7_-170" source="bVKumJbvJyEJEweoQE7_-185" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeWidth=2;strokeColor=#1BA39C;endArrow=block;endFill=1;flowAnimation=1;" target="bVKumJbvJyEJEweoQE7_-186">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-189" parent="bVKumJbvJyEJEweoQE7_-170" style="rounded=1;arcSize=30;whiteSpace=wrap;html=1;fillColor=#E3F1FB;strokeColor=#3C8DBC;strokeWidth=2;fontSize=10;fontStyle=1;" value="3 · Registrations back" vertex="1">
+          <mxGeometry height="30" width="230" x="10" y="176" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-190" parent="bVKumJbvJyEJEweoQE7_-170" style="rounded=1;arcSize=30;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#B85450;strokeWidth=2;fontSize=10;" value="🔒 CSV + PGP → file share → MFT" vertex="1">
+          <mxGeometry height="30" width="360" x="350" y="176" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-191" parent="bVKumJbvJyEJEweoQE7_-170" style="rounded=1;arcSize=30;whiteSpace=wrap;html=1;fillColor=#E3F1FB;strokeColor=#3C8DBC;strokeWidth=2;fontSize=10;" value="Learning management system" vertex="1">
+          <mxGeometry height="30" width="310" x="800" y="176" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-192" edge="1" parent="bVKumJbvJyEJEweoQE7_-170" source="bVKumJbvJyEJEweoQE7_-189" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeWidth=2;strokeColor=#3C8DBC;endArrow=block;endFill=1;flowAnimation=1;" target="bVKumJbvJyEJEweoQE7_-190">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-193" edge="1" parent="bVKumJbvJyEJEweoQE7_-170" source="bVKumJbvJyEJEweoQE7_-190" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeWidth=2;strokeColor=#3C8DBC;endArrow=block;endFill=1;flowAnimation=1;" target="bVKumJbvJyEJEweoQE7_-191">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-194" parent="bVKumJbvJyEJEweoQE7_-170" style="rounded=1;arcSize=30;whiteSpace=wrap;html=1;fillColor=#EFEBE9;strokeColor=#8D6E63;strokeWidth=2;fontSize=10;fontStyle=1;" value="4 · Contact sync" vertex="1">
+          <mxGeometry height="30" width="230" x="10" y="212" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-195" parent="bVKumJbvJyEJEweoQE7_-170" style="rounded=1;arcSize=30;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#8D6E63;strokeWidth=2;fontSize=10;" value="SOAP · per-record update / delete" vertex="1">
+          <mxGeometry height="30" width="360" x="350" y="212" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-196" parent="bVKumJbvJyEJEweoQE7_-170" style="rounded=1;arcSize=30;whiteSpace=wrap;html=1;fillColor=#FFF1E0;strokeColor=#E07A00;strokeWidth=2;fontSize=10;" value="HCM system (write-back)" vertex="1">
+          <mxGeometry height="30" width="310" x="800" y="212" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-197" edge="1" parent="bVKumJbvJyEJEweoQE7_-170" source="bVKumJbvJyEJEweoQE7_-194" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeWidth=2;strokeColor=#8D6E63;endArrow=block;endFill=1;flowAnimation=1;" target="bVKumJbvJyEJEweoQE7_-195">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-198" edge="1" parent="bVKumJbvJyEJEweoQE7_-170" source="bVKumJbvJyEJEweoQE7_-195" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeWidth=2;strokeColor=#8D6E63;endArrow=block;endFill=1;flowAnimation=1;" target="bVKumJbvJyEJEweoQE7_-196">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-199" parent="bVKumJbvJyEJEweoQE7_-170" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#B85450;strokeWidth=2;fontSize=10;align=left;spacingLeft=10;" value="&lt;b&gt;🔐 Security in transit:&lt;/b&gt; PGP for files · Short-lived access tokens on the file share · OAuth2 / WS-Security for APIs · Encrypted DB connections · All secrets in the vault" vertex="1">
+          <mxGeometry height="40" width="1120" x="10" y="252" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-200" parent="0" value="7 · Analytics (Warehouse + Lakehouse)" />
+        <mxCell id="bVKumJbvJyEJEweoQE7_-201" parent="bVKumJbvJyEJEweoQE7_-200" style="swimlane;whiteSpace=wrap;html=1;startSize=34;fillColor=#DAE8FC;strokeColor=#1565C0;fontStyle=1;fontSize=14;align=center;spacingLeft=14;swimlaneFillColor=#FAFCFF;rounded=1;arcSize=1;collapsible=1;" value="ANALYTICS WAREHOUSE · PLATFORM 1: Nightly load → DQ gate → Kimball constellation" vertex="1">
+          <mxGeometry height="480" width="1140" x="39" y="2180" as="geometry">
+            <mxRectangle height="34" width="800" x="40" y="2180" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-202" parent="bVKumJbvJyEJEweoQE7_-201" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=7;fillColor=#FFF2CC;strokeColor=#D6B656;strokeWidth=2;fontSize=10;" value="&lt;b&gt;Curated store&lt;/b&gt;&lt;br&gt;complete at SLA 1" vertex="1">
+          <mxGeometry height="60" width="120" x="10" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-203" parent="bVKumJbvJyEJEweoQE7_-201" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#43A047;strokeWidth=2;fontSize=10;" value="&lt;b&gt;① Dimensions&lt;/b&gt;&lt;br&gt;SCD1 · SCD2" vertex="1">
+          <mxGeometry height="60" width="120" x="150" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-204" parent="bVKumJbvJyEJEweoQE7_-201" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1E88E5;strokeWidth=2;fontSize=10;" value="&lt;b&gt;② Facts&lt;/b&gt;&lt;br&gt;all fact types" vertex="1">
+          <mxGeometry height="60" width="120" x="290" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-205" parent="bVKumJbvJyEJEweoQE7_-201" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#FFF8E1;strokeColor=#FFA000;strokeWidth=2;fontSize=10;" value="&lt;b&gt;③ Aggregates&lt;/b&gt;&lt;br&gt;pre-computed" vertex="1">
+          <mxGeometry height="60" width="120" x="430" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-206" parent="bVKumJbvJyEJEweoQE7_-201" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFCDD2;strokeColor=#C62828;strokeWidth=2;fontSize=9;" value="&lt;b&gt;④ DQ gate&lt;/b&gt;&lt;br&gt;score ≥ threshold?" vertex="1">
+          <mxGeometry height="76" width="120" x="570" y="44" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-207" parent="bVKumJbvJyEJEweoQE7_-201" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#F3E5F5;strokeColor=#8E24AA;strokeWidth=2;fontSize=10;" value="&lt;b&gt;⑤ Audit&lt;/b&gt;&lt;br&gt;batch + load log" vertex="1">
+          <mxGeometry height="60" width="120" x="710" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-208" parent="bVKumJbvJyEJEweoQE7_-201" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=7;fillColor=#DAE8FC;strokeColor=#1565C0;strokeWidth=3;fontSize=10;" value="&lt;b&gt;DW published&lt;/b&gt;&lt;br&gt;SLA 2" vertex="1">
+          <mxGeometry height="60" width="120" x="850" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-209" parent="bVKumJbvJyEJEweoQE7_-201" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#C8E6C9;strokeColor=#2E7D32;strokeWidth=2;fontSize=10;" value="&lt;b&gt;BI refresh&lt;/b&gt;&lt;br&gt;triggered on publish" vertex="1">
+          <mxGeometry height="60" width="120" x="990" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-210" parent="bVKumJbvJyEJEweoQE7_-201" style="rounded=1;arcSize=40;whiteSpace=wrap;html=1;fillColor=#C62828;strokeColor=none;fontColor=#FFFFFF;fontSize=9;fontStyle=1;" value="✖ Below threshold → Publish stopped" vertex="1">
+          <mxGeometry height="24" width="200" x="530" y="126" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-211" edge="1" parent="bVKumJbvJyEJEweoQE7_-201" source="bVKumJbvJyEJEweoQE7_-202" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeWidth=2;strokeColor=#1565C0;endArrow=block;endFill=1;flowAnimation=1;" target="bVKumJbvJyEJEweoQE7_-203">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-212" edge="1" parent="bVKumJbvJyEJEweoQE7_-201" source="bVKumJbvJyEJEweoQE7_-203" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeWidth=2;strokeColor=#1565C0;endArrow=block;endFill=1;flowAnimation=1;" target="bVKumJbvJyEJEweoQE7_-204">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-213" edge="1" parent="bVKumJbvJyEJEweoQE7_-201" source="bVKumJbvJyEJEweoQE7_-204" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeWidth=2;strokeColor=#1565C0;endArrow=block;endFill=1;flowAnimation=1;" target="bVKumJbvJyEJEweoQE7_-205">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-214" edge="1" parent="bVKumJbvJyEJEweoQE7_-201" source="bVKumJbvJyEJEweoQE7_-205" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeWidth=2;strokeColor=#1565C0;endArrow=block;endFill=1;flowAnimation=1;" target="bVKumJbvJyEJEweoQE7_-206">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-215" edge="1" parent="bVKumJbvJyEJEweoQE7_-201" source="bVKumJbvJyEJEweoQE7_-206" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeWidth=2;strokeColor=#2E7D32;endArrow=block;endFill=1;flowAnimation=1;" target="bVKumJbvJyEJEweoQE7_-207">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-216" edge="1" parent="bVKumJbvJyEJEweoQE7_-201" source="bVKumJbvJyEJEweoQE7_-207" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeWidth=4;strokeColor=#1565C0;endArrow=block;endFill=1;flowAnimation=1;" target="bVKumJbvJyEJEweoQE7_-208">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-217" edge="1" parent="bVKumJbvJyEJEweoQE7_-201" source="bVKumJbvJyEJEweoQE7_-208" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeWidth=2;strokeColor=#2E7D32;endArrow=block;endFill=1;flowAnimation=1;" target="bVKumJbvJyEJEweoQE7_-209">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-218" edge="1" parent="bVKumJbvJyEJEweoQE7_-201" source="bVKumJbvJyEJEweoQE7_-206" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeWidth=2;dashed=1;strokeColor=#C62828;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="bVKumJbvJyEJEweoQE7_-210">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-219" parent="bVKumJbvJyEJEweoQE7_-201" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#43A047;strokeWidth=2;fontSize=10;align=left;verticalAlign=top;spacingLeft=8;spacingTop=6;spacingRight=6;" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;Dimensions&lt;/b&gt;&lt;/div&gt;&lt;hr style=&quot;text-align: center;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;• SCD2 with checksum change detection&lt;/span&gt;&lt;/div&gt;• SCD1 overwrite for reference data&lt;br&gt;• Static: date, exit context&lt;br&gt;• Rolling-window dims for future-dated data&lt;br&gt;• Role-playing worker + date dims" vertex="1">
+          <mxGeometry height="240" width="260" x="10" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-220" parent="bVKumJbvJyEJEweoQE7_-201" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1E88E5;strokeWidth=2;fontSize=10;" value="&lt;b&gt;Transaction Facts&lt;/b&gt;&lt;br&gt;One row per business event" vertex="1">
+          <mxGeometry height="56" width="255" x="290" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-221" parent="bVKumJbvJyEJEweoQE7_-201" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1E88E5;strokeWidth=2;fontSize=10;" value="&lt;b&gt;Periodic Snapshots&lt;/b&gt;&lt;br&gt;Headcount · balances · compensation" vertex="1">
+          <mxGeometry height="56" width="255" x="575" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-222" parent="bVKumJbvJyEJEweoQE7_-201" style="shape=hexagon;perimeter=hexagonPerimeter2;size=0.06;whiteSpace=wrap;html=1;fillColor=#EDE7F6;strokeColor=#7B1FA2;strokeWidth=3;fontSize=10;" value="&lt;b&gt;&lt;font style=&quot;font-size:12px&quot;&gt;CONFORMED HUB&lt;/font&gt;&lt;/b&gt;&lt;br&gt;Worker · date · organization&lt;br&gt;Shared by every fact → consistent metrics" vertex="1">
+          <mxGeometry height="80" width="400" x="361" y="236" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-223" parent="bVKumJbvJyEJEweoQE7_-201" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1E88E5;strokeWidth=2;fontSize=10;" value="&lt;b&gt;Accumulating + Factless + Planned&lt;/b&gt;&lt;br&gt;Lifecycles · coverage · forward-looking" vertex="1">
+          <mxGeometry height="60" width="255" x="290" y="338" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-224" parent="bVKumJbvJyEJEweoQE7_-201" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFF8E1;strokeColor=#FFA000;strokeWidth=2;fontSize=10;" value="&lt;b&gt;Aggregates + Bridges&lt;/b&gt;&lt;br&gt;Fast headline queries · Many-to-many" vertex="1">
+          <mxGeometry height="60" width="255" x="575" y="338" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-225" parent="bVKumJbvJyEJEweoQE7_-201" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#F3E5F5;strokeColor=#7B1FA2;strokeWidth=2;dashed=1;fontSize=10;align=left;verticalAlign=top;spacingLeft=8;spacingTop=6;spacingRight=6;" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;&lt;font style=&quot;font-size:12px&quot;&gt;🔗 FEDERATION SOURCE&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;b&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;→ Platform 2&lt;/b&gt;&lt;/div&gt;&lt;/b&gt;&lt;hr&gt;• Conformed dims exposed through a few federated views&lt;br&gt;• Read at query time · zero rows copied&lt;br&gt;• Source-side security still applies&lt;br&gt;• Platform 1 stays the master" vertex="1">
+          <mxGeometry height="240" width="280" x="850" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-226" edge="1" parent="bVKumJbvJyEJEweoQE7_-201" source="bVKumJbvJyEJEweoQE7_-220" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeWidth=1.5;dashed=1;strokeColor=#7B1FA2;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.24;entryY=0;" target="bVKumJbvJyEJEweoQE7_-222">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-227" edge="1" parent="bVKumJbvJyEJEweoQE7_-201" source="bVKumJbvJyEJEweoQE7_-221" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeWidth=1.5;dashed=1;strokeColor=#7B1FA2;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.76;entryY=0;" target="bVKumJbvJyEJEweoQE7_-222">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-228" edge="1" parent="bVKumJbvJyEJEweoQE7_-201" source="bVKumJbvJyEJEweoQE7_-223" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeWidth=1.5;dashed=1;strokeColor=#7B1FA2;endArrow=block;endFill=1;exitX=0.5;exitY=0;entryX=0.24;entryY=1;" target="bVKumJbvJyEJEweoQE7_-222">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-229" edge="1" parent="bVKumJbvJyEJEweoQE7_-201" source="bVKumJbvJyEJEweoQE7_-224" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeWidth=1.5;dashed=1;strokeColor=#7B1FA2;endArrow=block;endFill=1;exitX=0.5;exitY=0;entryX=0.76;entryY=1;" target="bVKumJbvJyEJEweoQE7_-222">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-230" edge="1" parent="bVKumJbvJyEJEweoQE7_-201" source="bVKumJbvJyEJEweoQE7_-219" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeWidth=2;strokeColor=#43A047;endArrow=block;endFill=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="bVKumJbvJyEJEweoQE7_-222">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-231" edge="1" parent="bVKumJbvJyEJEweoQE7_-201" source="bVKumJbvJyEJEweoQE7_-222" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeWidth=2.5;dashed=1;strokeColor=#7B1FA2;endArrow=block;endFill=1;flowAnimation=1;fontSize=9;fontColor=#4A148C;labelBackgroundColor=#FAFCFF;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="bVKumJbvJyEJEweoQE7_-225" value="live">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-232" parent="bVKumJbvJyEJEweoQE7_-201" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1565C0;strokeWidth=2;fontSize=10;align=left;spacingLeft=10;" value="&lt;b&gt;Quality and security:&lt;/b&gt;&amp;nbsp;Rule set with a blocking threshold before publishing. Audit + lineage tables. 3 sensitivity tiers with schema-level DENY. Row-level security in the BI model" vertex="1">
+          <mxGeometry height="56" width="1120" x="10" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-233" parent="bVKumJbvJyEJEweoQE7_-200" style="swimlane;whiteSpace=wrap;html=1;startSize=34;fillColor=#EFEBE9;strokeColor=#8D6E63;fontStyle=1;fontSize=14;align=center;spacingLeft=14;swimlaneFillColor=#FCFAF9;rounded=1;arcSize=1;collapsible=1;" value="ANALYTICS LAKEHOUSE · PLATFORM 2: Build decision → Bronze → Silver → Gold stars" vertex="1">
+          <mxGeometry height="480" width="1140" x="1220" y="2180" as="geometry">
+            <mxRectangle height="34" width="800" x="1220" y="2180" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-234" parent="bVKumJbvJyEJEweoQE7_-233" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#FFEBEE;strokeColor=#C62828;strokeWidth=2;fontSize=10;align=left;spacingLeft=10;spacingRight=6;" value="&lt;b&gt;A · BUILD DECISION FIRST:&lt;/b&gt;&amp;nbsp;An integration gets a Gold layer only if it builds history, has an analytical audience and answers questions no other source can. Here 3 integrations BUILD, the contact sync is a deliberate &lt;b&gt;⛔ SKIP&lt;/b&gt; (system-to-system, covered by job monitoring)" vertex="1">
+          <mxGeometry height="60" width="1120" x="10" y="44" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-235" parent="bVKumJbvJyEJEweoQE7_-233" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=6;fillColor=#FFF2CC;strokeColor=#D6B656;strokeWidth=2;fontSize=10;" value="&lt;b&gt;Sources&lt;/b&gt;&lt;br&gt;DB · files · events" vertex="1">
+          <mxGeometry height="60" width="120" x="10" y="116" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-236" parent="bVKumJbvJyEJEweoQE7_-233" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=6;fillColor=#E8C39E;strokeColor=#8D6E63;strokeWidth=2;fontSize=10;" value="&lt;b&gt;① Bronze&lt;/b&gt;&lt;br&gt;raw · append-only" vertex="1">
+          <mxGeometry height="60" width="120" x="150" y="116" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-237" parent="bVKumJbvJyEJEweoQE7_-233" style="rhombus;whiteSpace=wrap;html=1;fillColor=#EFEBE9;strokeColor=#8D6E63;strokeWidth=2;fontSize=9;" value="&lt;b&gt;② Validate&lt;/b&gt;&lt;br&gt;watermark + dedup" vertex="1">
+          <mxGeometry height="76" width="120" x="290" y="108" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-238" parent="bVKumJbvJyEJEweoQE7_-233" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=6;fillColor=#ECEFF1;strokeColor=#607D8B;strokeWidth=2;fontSize=10;" value="&lt;b&gt;③ Silver&lt;/b&gt;&lt;br&gt;typed · cleaned" vertex="1">
+          <mxGeometry height="60" width="120" x="430" y="116" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-239" parent="bVKumJbvJyEJEweoQE7_-233" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#43A047;strokeWidth=2;fontSize=10;" value="&lt;b&gt;④ Gold dims&lt;/b&gt;&lt;br&gt;seeds · SCD1 · federated" vertex="1">
+          <mxGeometry height="60" width="120" x="570" y="116" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-240" parent="bVKumJbvJyEJEweoQE7_-233" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#FFE082;strokeColor=#FFA000;strokeWidth=2;fontSize=10;" value="&lt;b&gt;⑤ Gold facts&lt;/b&gt;&lt;br&gt;incremental append" vertex="1">
+          <mxGeometry height="60" width="120" x="710" y="116" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-241" parent="bVKumJbvJyEJEweoQE7_-233" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#E07A00;strokeWidth=2;fontSize=10;" value="&lt;b&gt;⑥ DQ checks&lt;/b&gt;&lt;br&gt;alert, not block" vertex="1">
+          <mxGeometry height="60" width="120" x="850" y="116" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-242" parent="bVKumJbvJyEJEweoQE7_-233" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#FFF8E1;strokeColor=#FFA000;strokeWidth=2;fontSize=10;" value="&lt;b&gt;⑦ Views&lt;/b&gt;&lt;br&gt;only layer consumers see" vertex="1">
+          <mxGeometry height="60" width="120" x="990" y="116" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-243" edge="1" parent="bVKumJbvJyEJEweoQE7_-233" source="bVKumJbvJyEJEweoQE7_-235" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeWidth=2;strokeColor=#8D6E63;endArrow=block;endFill=1;flowAnimation=1;" target="bVKumJbvJyEJEweoQE7_-236">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-244" edge="1" parent="bVKumJbvJyEJEweoQE7_-233" source="bVKumJbvJyEJEweoQE7_-236" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeWidth=2;strokeColor=#8D6E63;endArrow=block;endFill=1;flowAnimation=1;" target="bVKumJbvJyEJEweoQE7_-237">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-245" edge="1" parent="bVKumJbvJyEJEweoQE7_-233" source="bVKumJbvJyEJEweoQE7_-237" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeWidth=2;strokeColor=#8D6E63;endArrow=block;endFill=1;flowAnimation=1;" target="bVKumJbvJyEJEweoQE7_-238">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-246" edge="1" parent="bVKumJbvJyEJEweoQE7_-233" source="bVKumJbvJyEJEweoQE7_-238" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeWidth=2;strokeColor=#FFA000;endArrow=block;endFill=1;flowAnimation=1;" target="bVKumJbvJyEJEweoQE7_-239">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-247" edge="1" parent="bVKumJbvJyEJEweoQE7_-233" source="bVKumJbvJyEJEweoQE7_-239" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeWidth=2;strokeColor=#FFA000;endArrow=block;endFill=1;flowAnimation=1;" target="bVKumJbvJyEJEweoQE7_-240">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-248" edge="1" parent="bVKumJbvJyEJEweoQE7_-233" source="bVKumJbvJyEJEweoQE7_-240" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeWidth=2;strokeColor=#E07A00;endArrow=block;endFill=1;flowAnimation=1;" target="bVKumJbvJyEJEweoQE7_-241">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-249" edge="1" parent="bVKumJbvJyEJEweoQE7_-233" source="bVKumJbvJyEJEweoQE7_-241" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeWidth=2;strokeColor=#E07A00;endArrow=block;endFill=1;flowAnimation=1;" target="bVKumJbvJyEJEweoQE7_-242">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-250" parent="bVKumJbvJyEJEweoQE7_-233" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#F3E5F5;strokeColor=#7B1FA2;strokeWidth=2;dashed=1;fontSize=10;align=left;verticalAlign=top;spacingLeft=8;spacingTop=4;spacingRight=6;" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;&lt;font style=&quot;font-size:12px&quot;&gt;🔗 FEDERATION SEAM&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;b&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;← Platform 1 warehouse&lt;/b&gt;&lt;/div&gt;&lt;/b&gt;&lt;hr&gt;• Worker + organization context read live&lt;br&gt;• Unresolved worker → unknown key + DQ alert&lt;br&gt;• Reads before the DW publishes see the previous day" vertex="1">
+          <mxGeometry height="200" width="250" x="10" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-251" parent="bVKumJbvJyEJEweoQE7_-233" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#E07A00;strokeWidth=2;fontSize=10;" value="⭐ &lt;b&gt;Hire-ops star&lt;/b&gt;&lt;br&gt;Pipeline · service SLA" vertex="1">
+          <mxGeometry height="50" width="270" x="280" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-252" parent="bVKumJbvJyEJEweoQE7_-233" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FCE4EC;strokeColor=#D81B60;strokeWidth=2;fontSize=10;" value="⭐ &lt;b&gt;Recruiting star&lt;/b&gt;&lt;br&gt;Funnel · time-in-stage" vertex="1">
+          <mxGeometry height="50" width="270" x="570" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-253" parent="bVKumJbvJyEJEweoQE7_-233" style="shape=hexagon;perimeter=hexagonPerimeter2;size=0.06;whiteSpace=wrap;html=1;fillColor=#FFE082;strokeColor=#FFA000;strokeWidth=3;fontSize=10;" value="&lt;b&gt;&lt;font style=&quot;font-size:12px&quot;&gt;GOLD HUB&lt;/font&gt;&lt;/b&gt;&lt;br&gt;Local dims + federated views · key resolution" vertex="1">
+          <mxGeometry height="70" width="400" x="360" y="268" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-254" parent="bVKumJbvJyEJEweoQE7_-233" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#E3F1FB;strokeColor=#3C8DBC;strokeWidth=2;fontSize=10;" value="⭐ &lt;b&gt;Learning star&lt;/b&gt;&lt;br&gt;Enrollment · utilization" vertex="1">
+          <mxGeometry height="48" width="270" x="280" y="352" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-255" parent="bVKumJbvJyEJEweoQE7_-233" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFF8E1;strokeColor=#FFA000;strokeWidth=2;fontSize=10;" value="&lt;b&gt;Shared DQ log + views&lt;/b&gt;&lt;br&gt;Checks every cycle" vertex="1">
+          <mxGeometry height="48" width="270" x="570" y="352" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-256" parent="bVKumJbvJyEJEweoQE7_-233" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#8E24AA;strokeWidth=2;fontSize=10;align=left;verticalAlign=top;spacingLeft=8;spacingTop=4;spacingRight=6;" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;Serving&lt;/b&gt;&lt;/div&gt;&lt;hr style=&quot;text-align: center;&quot;&gt;• SQL warehouse endpoint&lt;br&gt;• Live ops dashboard: sub-second, no cache&lt;br&gt;• BI import for business dashboards (once a day)&lt;br&gt;• Recovery: table time travel + re-run from Bronze" vertex="1">
+          <mxGeometry height="200" width="270" x="860" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-257" edge="1" parent="bVKumJbvJyEJEweoQE7_-233" source="bVKumJbvJyEJEweoQE7_-251" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeWidth=1.5;dashed=1;strokeColor=#7B1FA2;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.24;entryY=0;" target="bVKumJbvJyEJEweoQE7_-253">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-258" edge="1" parent="bVKumJbvJyEJEweoQE7_-233" source="bVKumJbvJyEJEweoQE7_-252" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeWidth=1.5;dashed=1;strokeColor=#7B1FA2;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.76;entryY=0;" target="bVKumJbvJyEJEweoQE7_-253">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-259" edge="1" parent="bVKumJbvJyEJEweoQE7_-233" source="bVKumJbvJyEJEweoQE7_-254" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeWidth=1.5;dashed=1;strokeColor=#7B1FA2;endArrow=block;endFill=1;exitX=0.5;exitY=0;entryX=0.24;entryY=1;" target="bVKumJbvJyEJEweoQE7_-253">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-260" edge="1" parent="bVKumJbvJyEJEweoQE7_-233" source="bVKumJbvJyEJEweoQE7_-255" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeWidth=1.5;dashed=1;strokeColor=#7B1FA2;endArrow=block;endFill=1;exitX=0.5;exitY=0;entryX=0.76;entryY=1;" target="bVKumJbvJyEJEweoQE7_-253">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-261" edge="1" parent="bVKumJbvJyEJEweoQE7_-233" source="bVKumJbvJyEJEweoQE7_-250" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeWidth=2.5;dashed=1;strokeColor=#7B1FA2;endArrow=block;endFill=1;flowAnimation=1;fontSize=9;fontColor=#4A148C;labelBackgroundColor=#FCFAF9;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="bVKumJbvJyEJEweoQE7_-253" value="live">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-262" parent="bVKumJbvJyEJEweoQE7_-233" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#8D6E63;strokeWidth=2;fontSize=10;align=left;spacingLeft=10;" value="&lt;b&gt;Governance:&lt;/b&gt;&amp;nbsp;One catalog per environment (dev / test / prod). Table ACLs. Lineage + table history. General-tier data only, no restricted fields" vertex="1">
+          <mxGeometry height="56" width="1120" x="10" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-263" parent="0" value="8 · Consumption" />
+        <mxCell id="bVKumJbvJyEJEweoQE7_-264" parent="bVKumJbvJyEJEweoQE7_-263" style="swimlane;whiteSpace=wrap;html=1;startSize=34;fillColor=#6A1B9A;fontColor=#FFFFFF;strokeColor=#4A148C;fontStyle=1;fontSize=15;align=left;spacingLeft=14;swimlaneFillColor=#FBF7FD;rounded=1;arcSize=1;collapsible=1;" value="CONSUMPTION: Dashboards grouped by the platform that feeds them" vertex="1">
+          <mxGeometry height="240" width="2320" x="40" y="2690" as="geometry">
+            <mxRectangle height="34" width="900" x="40" y="2690" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-265" parent="bVKumJbvJyEJEweoQE7_-264" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1565C0;strokeWidth=2;fontSize=11;align=left;verticalAlign=top;spacingLeft=10;spacingTop=6;" value="&lt;b&gt;PLATFORM 1: BI semantic model on the Warehouse&lt;/b&gt;&lt;hr&gt;• Composite model: Imported dimensions + aggregates, DirectQuery for large or highly restricted facts&lt;br&gt;• Row-level security roles on top of schema security&lt;br&gt;• Import refresh triggered when the DW publishes, not on a fixed clock&lt;br&gt;• Broad HR audience consumes headcount, attrition, leave, mobility, planning, executive summary" vertex="1">
+          <mxGeometry height="140" width="1140" x="10" y="44" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-266" parent="bVKumJbvJyEJEweoQE7_-264" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#E07A00;strokeWidth=2;fontSize=11;align=left;verticalAlign=top;spacingLeft=10;spacingTop=6;" value="&lt;b&gt;PLATFORM 2: Dashboards on the Lakehouse Gold layer&lt;/b&gt;&lt;hr&gt;• Live ops dashboard: Every click queries Gold views (minutes-old data)&lt;br&gt;• Business dashboards import Gold on a staggered schedule to avoid warehouse contention&lt;br&gt;• Each refresh starts after the upstream cycle it depends on&lt;br&gt;• Federated context read once per refresh, not per click" vertex="1">
+          <mxGeometry height="140" width="1140" x="1170" y="44" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-267" parent="bVKumJbvJyEJEweoQE7_-264" style="rounded=1;arcSize=30;whiteSpace=wrap;html=1;fillColor=#C8E6C9;strokeColor=#2E7D32;strokeWidth=2;fontSize=11;" value="&lt;b&gt;Freshness by design:&lt;/b&gt;&amp;nbsp;Lakehouse business dashboards current first. Warehouse dashboards current after DW publish + refresh. Live and DirectQuery views always current. Every dashboard current before the business day starts" vertex="1">
+          <mxGeometry height="36" width="2300" x="10" y="194" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-268" parent="0" value="9 · Timeline, Governance, Ops &amp; Principles" />
+        <mxCell id="bVKumJbvJyEJEweoQE7_-269" parent="bVKumJbvJyEJEweoQE7_-268" style="swimlane;whiteSpace=wrap;html=1;startSize=34;fillColor=#F57F17;fontColor=#FFFFFF;strokeColor=#E65100;fontStyle=1;fontSize=15;align=left;spacingLeft=14;swimlaneFillColor=#FFFDF5;rounded=1;arcSize=1;collapsible=1;" value="DAILY TIMELINE (relative, not to scale): Nightly start → all dashboards current" vertex="1">
+          <mxGeometry height="260" width="2320" x="40" y="2960" as="geometry">
+            <mxRectangle height="34" width="900" x="40" y="2960" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-270" parent="bVKumJbvJyEJEweoQE7_-269" style="rounded=1;arcSize=30;whiteSpace=wrap;html=1;fillColor=#CFD8DC;strokeColor=#607D8B;fontSize=10;align=left;spacingLeft=8;" value="&lt;b&gt;PLATFORM 1: Nightly integration&lt;/b&gt; (Dependency-driven: Extract → Transform → CDC load)" vertex="1">
+          <mxGeometry height="22" width="1300" x="10" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-271" parent="bVKumJbvJyEJEweoQE7_-269" style="rounded=1;arcSize=30;whiteSpace=wrap;html=1;fillColor=#1976D2;strokeColor=none;fontColor=#FFFFFF;fontSize=10;" value="&lt;b&gt;Warehouse ETL + DQ gate&lt;/b&gt;" vertex="1">
+          <mxGeometry height="22" width="500" x="1310" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-272" parent="bVKumJbvJyEJEweoQE7_-269" style="rounded=1;arcSize=30;whiteSpace=wrap;html=1;fillColor=#7B1FA2;strokeColor=none;fontColor=#FFFFFF;fontSize=10;" value="&lt;b&gt;BI Refresh&lt;/b&gt;" vertex="1">
+          <mxGeometry height="22" width="250" x="1810" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-273" parent="bVKumJbvJyEJEweoQE7_-269" style="rounded=1;arcSize=30;whiteSpace=wrap;html=1;fillColor=#2E7D32;strokeColor=none;fontColor=#FFFFFF;fontSize=10;fontStyle=1;" value="✓ All current" vertex="1">
+          <mxGeometry height="22" width="230" x="2060" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-274" parent="bVKumJbvJyEJEweoQE7_-269" style="rounded=1;arcSize=40;whiteSpace=wrap;html=1;fillColor=#FFE0B2;gradientColor=#FFF3E0;gradientDirection=east;strokeColor=#EF6C00;dashed=1;strokeWidth=2;fontSize=10;align=left;spacingLeft=8;" value="⟳ &lt;b&gt;PLATFORM 2 - Continuous:&lt;/b&gt;&amp;nbsp;Integrations cycle every 1–3 h · Gold rebuilt each cycle · Daily key reconciliation · Business dashboards refresh on a staggered schedule in the early morning" vertex="1">
+          <mxGeometry height="30" width="2280" x="10" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-275" edge="1" parent="bVKumJbvJyEJEweoQE7_-269" style="endArrow=none;html=1;strokeColor=#1565C0;strokeWidth=2;dashed=1;fontSize=9;fontStyle=1;fontColor=#1565C0;labelBackgroundColor=#FFFDF5;" value="SLA 1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1310" y="40" as="sourcePoint" />
+            <mxPoint x="1310" y="116" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-276" edge="1" parent="bVKumJbvJyEJEweoQE7_-269" style="endArrow=none;html=1;strokeColor=#2E7D32;strokeWidth=2;dashed=1;fontSize=9;fontStyle=1;fontColor=#2E7D32;labelBackgroundColor=#FFFDF5;" value="SLA 2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1810" y="40" as="sourcePoint" />
+            <mxPoint x="1810" y="116" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-277" parent="bVKumJbvJyEJEweoQE7_-269" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1E88E5;fontSize=10;" value="&lt;b&gt;T0 · Evening&lt;/b&gt;&lt;br&gt;Scheduler starts the nightly chain · Extraction window set" vertex="1">
+          <mxGeometry height="90" width="372" x="10" y="126" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-278" parent="bVKumJbvJyEJEweoQE7_-269" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1E88E5;fontSize=10;" value="&lt;b&gt;T1 · Night&lt;/b&gt;&lt;br&gt;API + file extraction · ODS transforms" vertex="1">
+          <mxGeometry height="90" width="372" x="392" y="126" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-279" parent="bVKumJbvJyEJEweoQE7_-269" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1E88E5;fontSize=10;" value="&lt;b&gt;T2 · Late night&lt;/b&gt;&lt;br&gt;CDC load into the curated store (longest phase)" vertex="1">
+          <mxGeometry height="90" width="372" x="774" y="126" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-280" parent="bVKumJbvJyEJEweoQE7_-269" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#BBDEFB;strokeColor=#1565C0;strokeWidth=2;fontSize=10;" value="&lt;b&gt;T3 · SLA 1&lt;/b&gt;&lt;br&gt;Pipeline complete · File feeds + DW ETL start" vertex="1">
+          <mxGeometry height="90" width="372" x="1156" y="126" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-281" parent="bVKumJbvJyEJEweoQE7_-269" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#EDE7F6;strokeColor=#5E35B1;strokeWidth=2;fontSize=10;" value="&lt;b&gt;T4 · SLA 2&lt;/b&gt;&lt;br&gt;DQ gate passed · DW published · BI refresh triggered" vertex="1">
+          <mxGeometry height="90" width="372" x="1538" y="126" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-282" parent="bVKumJbvJyEJEweoQE7_-269" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#C8E6C9;strokeColor=#2E7D32;strokeWidth=2;fontSize=10;" value="&lt;b&gt;T5 · Business start&lt;/b&gt;&lt;br&gt;All dashboards current" vertex="1">
+          <mxGeometry height="90" width="370" x="1920" y="126" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-283" parent="bVKumJbvJyEJEweoQE7_-269" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontSize=10;fontStyle=2;fontColor=#555555;" value="A small number of anchor jobs start on a clock; every other step starts when its predecessor finishes, so completion moves with daily change volume" vertex="1">
+          <mxGeometry height="28" width="2280" x="10" y="224" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-284" parent="bVKumJbvJyEJEweoQE7_-268" style="swimlane;whiteSpace=wrap;html=1;startSize=34;fillColor=#455A64;fontColor=#FFFFFF;strokeColor=#263238;fontStyle=1;fontSize=15;align=left;spacingLeft=14;swimlaneFillColor=#F5F7F8;rounded=1;arcSize=1;collapsible=1;" value="GOVERNANCE" vertex="1">
+          <mxGeometry height="320" width="1140" x="40" y="3250" as="geometry">
+            <mxRectangle height="34" width="500" x="40" y="3250" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-285" parent="bVKumJbvJyEJEweoQE7_-284" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#78909C;strokeWidth=2;fontSize=10;align=left;verticalAlign=top;spacingLeft=8;spacingTop=4;spacingRight=6;" value="&lt;b&gt;🧪 Data quality&lt;/b&gt;&lt;hr&gt;• Platform 1: rule set with a blocking threshold before publish&lt;br&gt;• Platform 2: checks every cycle, alert only&lt;br&gt;• Row-count and threshold gates in ODS + curated store&lt;br&gt;• DQ scorecard dashboard reads results live" vertex="1">
+          <mxGeometry height="130" width="555" x="10" y="44" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-286" parent="bVKumJbvJyEJEweoQE7_-284" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#78909C;strokeWidth=2;fontSize=10;align=left;verticalAlign=top;spacingLeft=8;spacingTop=4;spacingRight=6;" value="&lt;b&gt;🧬 Lineage&lt;/b&gt;&lt;hr&gt;• Source-to-target map + schema registry&lt;br&gt;• Model version history&lt;br&gt;• Append-only history + load boundaries&lt;br&gt;• Catalog lineage + table history in the lakehouse" vertex="1">
+          <mxGeometry height="130" width="555" x="575" y="44" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-287" parent="bVKumJbvJyEJEweoQE7_-284" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#C62828;strokeWidth=2;fontSize=10;align=left;verticalAlign=top;spacingLeft=8;spacingTop=4;spacingRight=6;" value="&lt;b&gt;🔐 Access control&lt;/b&gt;&lt;hr&gt;• 3 sensitivity tiers · schema-level DENY&lt;br&gt;• Row-level security in BI models&lt;br&gt;• Catalog ACLs + workspace permissions&lt;br&gt;• Sensitive data never leaves Platform 1" vertex="1">
+          <mxGeometry height="130" width="555" x="10" y="184" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-288" parent="bVKumJbvJyEJEweoQE7_-284" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#78909C;strokeWidth=2;fontSize=10;align=left;verticalAlign=top;spacingLeft=8;spacingTop=4;spacingRight=6;" value="&lt;b&gt;🚨 Incident handling&lt;/b&gt;&lt;hr&gt;• Batch + process audit, error logs&lt;br&gt;• Per-record status + trace in Platform 2&lt;br&gt;• Email alerts → ITSM ticket → support queue" vertex="1">
+          <mxGeometry height="130" width="555" x="575" y="184" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-289" parent="bVKumJbvJyEJEweoQE7_-268" style="swimlane;whiteSpace=wrap;html=1;startSize=34;fillColor=#455A64;fontColor=#FFFFFF;strokeColor=#263238;fontStyle=1;fontSize=15;align=left;spacingLeft=14;swimlaneFillColor=#F5F7F8;rounded=1;arcSize=1;collapsible=1;" value="OPERATIONS · ORCHESTRATION · CI/CD · MONITORING · DR" vertex="1">
+          <mxGeometry height="320" width="1140" x="1220" y="3250" as="geometry">
+            <mxRectangle height="34" width="700" x="1220" y="3250" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-290" parent="bVKumJbvJyEJEweoQE7_-289" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#78909C;strokeWidth=2;fontSize=10;align=left;verticalAlign=top;spacingLeft=8;spacingTop=4;spacingRight=6;" value="&lt;b&gt;⏱ Orchestration&lt;/b&gt;&lt;hr&gt;• Platform 1: enterprise scheduler, dependency chain, few clock starts&lt;br&gt;• Platform 2: own job scheduler (scheduled, file-arrival, for-each, on-failure)&lt;br&gt;• No hard cross-platform job dependency; lakehouse aligned to DW publish" vertex="1">
+          <mxGeometry height="130" width="555" x="10" y="44" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-291" parent="bVKumJbvJyEJEweoQE7_-289" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#78909C;strokeWidth=2;fontSize=10;align=left;verticalAlign=top;spacingLeft=8;spacingTop=4;spacingRight=6;" value="&lt;b&gt;🚀 CI/CD&lt;/b&gt;&lt;hr&gt;• Git → pipeline → dev → test → prod with a manual gate&lt;br&gt;• One commit promoted to every ODS replica&lt;br&gt;• Same notebooks per environment, only config changes&lt;br&gt;• Fast rollback on both platforms" vertex="1">
+          <mxGeometry height="130" width="555" x="575" y="44" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-292" parent="bVKumJbvJyEJEweoQE7_-289" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#78909C;strokeWidth=2;fontSize=10;align=left;verticalAlign=top;spacingLeft=8;spacingTop=4;spacingRight=6;" value="&lt;b&gt;📊 Monitoring&lt;/b&gt;&lt;hr&gt;• Scheduler console + load-count metrics DB&lt;br&gt;• Job run logs + hourly monitor jobs&lt;br&gt;• Alerts → ITSM escalation" vertex="1">
+          <mxGeometry height="130" width="555" x="10" y="184" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-293" parent="bVKumJbvJyEJEweoQE7_-289" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#78909C;strokeWidth=2;fontSize=10;align=left;verticalAlign=top;spacingLeft=8;spacingTop=4;spacingRight=6;" value="&lt;b&gt;🛟 DR / recovery&lt;/b&gt;&lt;hr&gt;• Platform 1: full / diff / log backups · failed loads keep prior data · BI cache survives outages&lt;br&gt;• Platform 2: table time travel · re-run from Bronze · defined RPO / RTO" vertex="1">
+          <mxGeometry height="130" width="555" x="575" y="184" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-294" parent="bVKumJbvJyEJEweoQE7_-268" style="swimlane;whiteSpace=wrap;html=1;startSize=34;fillColor=#00695C;fontColor=#FFFFFF;strokeColor=#004D40;fontStyle=1;fontSize=15;align=left;spacingLeft=14;swimlaneFillColor=#F4FBFA;rounded=1;arcSize=1;collapsible=1;" value="DESIGN PRINCIPLES: SIX HYBRID AXES" vertex="1">
+          <mxGeometry height="380" width="2320" x="40" y="3600" as="geometry">
+            <mxRectangle height="34" width="900" x="40" y="3600" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-295" parent="bVKumJbvJyEJEweoQE7_-294" style="text;html=1;align=left;verticalAlign=middle;fontSize=12;fontColor=#004D40;" value="&lt;b&gt;Axis&lt;/b&gt;" vertex="1">
+          <mxGeometry height="24" width="250" x="15" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-296" parent="bVKumJbvJyEJEweoQE7_-294" style="text;html=1;align=center;verticalAlign=middle;fontSize=12;fontColor=#0D47A1;" value="&lt;b&gt;Platform 1: Batch Warehouse&lt;/b&gt;" vertex="1">
+          <mxGeometry height="24" width="900" x="275" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-297" parent="bVKumJbvJyEJEweoQE7_-294" style="text;html=1;align=center;verticalAlign=middle;fontSize=12;fontColor=#BF360C;" value="&lt;b&gt;Platform 2: Lakehouse&lt;/b&gt;" vertex="1">
+          <mxGeometry height="24" width="1020" x="1285" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-298" parent="bVKumJbvJyEJEweoQE7_-294" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B2DFDB;strokeColor=#00695C;fontSize=12;align=left;spacingLeft=10;" value="&lt;b&gt;1 · Deployment&lt;/b&gt;" vertex="1">
+          <mxGeometry height="40" width="250" x="15" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-299" parent="bVKumJbvJyEJEweoQE7_-294" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1E88E5;fontSize=12;" value="On-prem relational DB + ETL tool + Enterprise scheduler" vertex="1">
+          <mxGeometry height="40" width="900" x="275" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-300" parent="bVKumJbvJyEJEweoQE7_-294" style="text;html=1;align=center;verticalAlign=middle;fontSize=24;fontStyle=1;fontColor=#00695C;" value="⇄" vertex="1">
+          <mxGeometry height="40" width="90" x="1185" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-301" parent="bVKumJbvJyEJEweoQE7_-294" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#EF6C00;fontSize=12;" value="Cloud Spark + Delta tables + Message queue" vertex="1">
+          <mxGeometry height="40" width="1020" x="1285" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-302" parent="bVKumJbvJyEJEweoQE7_-294" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B2DFDB;strokeColor=#00695C;fontSize=12;align=left;spacingLeft=10;" value="&lt;b&gt;2 · Role&lt;/b&gt;" vertex="1">
+          <mxGeometry height="40" width="250" x="15" y="118" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-303" parent="bVKumJbvJyEJEweoQE7_-294" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1E88E5;fontSize=12;" value="Producer: Enterprise DW + Conformed dimensions" vertex="1">
+          <mxGeometry height="40" width="900" x="275" y="118" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-304" parent="bVKumJbvJyEJEweoQE7_-294" style="text;html=1;align=center;verticalAlign=middle;fontSize=24;fontStyle=1;fontColor=#00695C;" value="⇄" vertex="1">
+          <mxGeometry height="40" width="90" x="1185" y="118" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-305" parent="bVKumJbvJyEJEweoQE7_-294" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#EF6C00;fontSize=12;" value="Consumer: Integration-specific analytics that extend the DW, not replace it" vertex="1">
+          <mxGeometry height="40" width="1020" x="1285" y="118" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-306" parent="bVKumJbvJyEJEweoQE7_-294" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B2DFDB;strokeColor=#00695C;fontSize=12;align=left;spacingLeft=10;" value="&lt;b&gt;3 · Cadence&lt;/b&gt;" vertex="1">
+          <mxGeometry height="40" width="250" x="15" y="166" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-307" parent="bVKumJbvJyEJEweoQE7_-294" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1E88E5;fontSize=12;" value="Nightly batch, T+1" vertex="1">
+          <mxGeometry height="40" width="900" x="275" y="166" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-308" parent="bVKumJbvJyEJEweoQE7_-294" style="text;html=1;align=center;verticalAlign=middle;fontSize=24;fontStyle=1;fontColor=#00695C;" value="⇄" vertex="1">
+          <mxGeometry height="40" width="90" x="1185" y="166" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-309" parent="bVKumJbvJyEJEweoQE7_-294" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#EF6C00;fontSize=12;" value="Events + micro-batches, hours of lag" vertex="1">
+          <mxGeometry height="40" width="1020" x="1285" y="166" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-310" parent="bVKumJbvJyEJEweoQE7_-294" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B2DFDB;strokeColor=#00695C;fontSize=12;align=left;spacingLeft=10;" value="&lt;b&gt;4 · Integration&lt;/b&gt;" vertex="1">
+          <mxGeometry height="40" width="250" x="15" y="214" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-311" parent="bVKumJbvJyEJEweoQE7_-294" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1E88E5;fontSize=12;" value="Bulk API extraction + Vendor files → Many outbound files" vertex="1">
+          <mxGeometry height="40" width="900" x="275" y="214" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-312" parent="bVKumJbvJyEJEweoQE7_-294" style="text;html=1;align=center;verticalAlign=middle;fontSize=24;fontStyle=1;fontColor=#00695C;" value="⇄" vertex="1">
+          <mxGeometry height="40" width="90" x="1185" y="214" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-313" parent="bVKumJbvJyEJEweoQE7_-294" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#EF6C00;fontSize=12;" value="Events + APIs + files · One controlled write-back" vertex="1">
+          <mxGeometry height="40" width="1020" x="1285" y="214" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-314" parent="bVKumJbvJyEJEweoQE7_-294" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B2DFDB;strokeColor=#00695C;fontSize=12;align=left;spacingLeft=10;" value="&lt;b&gt;5 · Data access&lt;/b&gt;" vertex="1">
+          <mxGeometry height="40" width="250" x="15" y="262" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-315" parent="bVKumJbvJyEJEweoQE7_-294" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1E88E5;fontSize=12;" value="Replication (ETL copies data into the DW)" vertex="1">
+          <mxGeometry height="40" width="900" x="275" y="262" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-316" parent="bVKumJbvJyEJEweoQE7_-294" style="text;html=1;align=center;verticalAlign=middle;fontSize=24;fontStyle=1;fontColor=#00695C;" value="⇄" vertex="1">
+          <mxGeometry height="40" width="90" x="1185" y="262" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-317" parent="bVKumJbvJyEJEweoQE7_-294" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#EF6C00;fontSize=12;" value="Federation (query-time, zero copy)" vertex="1">
+          <mxGeometry height="40" width="1020" x="1285" y="262" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-318" parent="bVKumJbvJyEJEweoQE7_-294" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B2DFDB;strokeColor=#00695C;fontSize=12;align=left;spacingLeft=10;" value="&lt;b&gt;6 · Consumption&lt;/b&gt;" vertex="1">
+          <mxGeometry height="40" width="250" x="15" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-319" parent="bVKumJbvJyEJEweoQE7_-294" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1E88E5;fontSize=12;" value="Composite BI model, broad audience" vertex="1">
+          <mxGeometry height="40" width="900" x="275" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-320" parent="bVKumJbvJyEJEweoQE7_-294" style="text;html=1;align=center;verticalAlign=middle;fontSize=24;fontStyle=1;fontColor=#00695C;" value="⇄" vertex="1">
+          <mxGeometry height="40" width="90" x="1185" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-321" parent="bVKumJbvJyEJEweoQE7_-294" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#EF6C00;fontSize=12;" value="Live ops dashboard + Imported business dashboards" vertex="1">
+          <mxGeometry height="40" width="1020" x="1285" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-322" parent="bVKumJbvJyEJEweoQE7_-268" style="swimlane;whiteSpace=wrap;html=1;startSize=34;fillColor=#757575;fontColor=#FFFFFF;strokeColor=#616161;fontStyle=1;fontSize=15;align=left;spacingLeft=14;swimlaneFillColor=#FFFFFF;rounded=1;arcSize=2;collapsible=1;" value="LEGEND" vertex="1">
+          <mxGeometry height="160" width="2320" x="40" y="4010" as="geometry">
+            <mxRectangle height="34" width="600" x="40" y="4010" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-323" edge="1" parent="bVKumJbvJyEJEweoQE7_-322" style="html=1;strokeWidth=3;strokeColor=#1565C0;endArrow=block;endFill=1;flowAnimation=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="20" y="56" as="sourcePoint" />
+            <mxPoint x="110" y="56" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-324" parent="bVKumJbvJyEJEweoQE7_-322" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;" value="&lt;b&gt;Solid animated:&lt;/b&gt;&amp;nbsp;Data flow" vertex="1">
+          <mxGeometry height="24" width="440" x="120" y="44" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-325" edge="1" parent="bVKumJbvJyEJEweoQE7_-322" style="html=1;strokeWidth=2.5;dashed=1;strokeColor=#7B1FA2;endArrow=block;endFill=1;flowAnimation=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="56" as="sourcePoint" />
+            <mxPoint x="690" y="56" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-326" parent="bVKumJbvJyEJEweoQE7_-322" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;" value="&lt;b&gt;Dashed purple:&lt;/b&gt; Federation (live read, zero copy)" vertex="1">
+          <mxGeometry height="24" width="440" x="700" y="44" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-327" edge="1" parent="bVKumJbvJyEJEweoQE7_-322" style="html=1;strokeWidth=2;dashed=1;dashPattern=1 3;strokeColor=#808080;endArrow=block;endFill=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1180" y="56" as="sourcePoint" />
+            <mxPoint x="1270" y="56" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-328" parent="bVKumJbvJyEJEweoQE7_-322" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;" value="&lt;b&gt;Dotted&lt;/b&gt;: Lookup / read in place / scheduled copy" vertex="1">
+          <mxGeometry height="24" width="440" x="1280" y="44" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-329" edge="1" parent="bVKumJbvJyEJEweoQE7_-322" style="html=1;strokeWidth=2.5;dashed=1;strokeColor=#F57F17;endArrow=block;endFill=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1760" y="56" as="sourcePoint" />
+            <mxPoint x="1850" y="56" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-330" parent="bVKumJbvJyEJEweoQE7_-322" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;" value="&lt;b&gt;Dashed orange&lt;/b&gt;: Trigger file / job hand-off" vertex="1">
+          <mxGeometry height="24" width="440" x="1860" y="44" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-331" parent="bVKumJbvJyEJEweoQE7_-322" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#0D47A1;strokeColor=none;fontColor=#FFFFFF;fontSize=11;" value="&lt;b&gt;Blue&lt;/b&gt; · Platform 1 (batch warehouse)" vertex="1">
+          <mxGeometry height="28" width="360" x="20" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-332" parent="bVKumJbvJyEJEweoQE7_-322" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#BF360C;strokeColor=none;fontColor=#FFFFFF;fontSize=11;" value="&lt;b&gt;Orange&lt;/b&gt; · Platform 2 (lakehouse)" vertex="1">
+          <mxGeometry height="28" width="360" x="400" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-333" parent="bVKumJbvJyEJEweoQE7_-322" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#4A148C;strokeColor=none;fontColor=#FFFFFF;fontSize=11;" value="&lt;b&gt;Purple&lt;/b&gt; · Federation seam" vertex="1">
+          <mxGeometry height="28" width="360" x="780" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-334" parent="bVKumJbvJyEJEweoQE7_-322" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#C8E6C9;strokeColor=#388E3C;fontSize=11;" value="&lt;b&gt;Green&lt;/b&gt; · Output / success" vertex="1">
+          <mxGeometry height="28" width="360" x="1160" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-335" parent="bVKumJbvJyEJEweoQE7_-322" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#FFF9C4;strokeColor=#F9A825;fontSize=11;" value="&lt;b&gt;Yellow&lt;/b&gt; · Storage / restricted" vertex="1">
+          <mxGeometry height="28" width="360" x="1540" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-336" parent="bVKumJbvJyEJEweoQE7_-322" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#FFCDD2;strokeColor=#C62828;fontSize=11;" value="&lt;b&gt;Red&lt;/b&gt; · Highly restricted / gate / failure" vertex="1">
+          <mxGeometry height="28" width="380" x="1920" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-337" parent="bVKumJbvJyEJEweoQE7_-322" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=11;fontColor=#37474F;" value="&lt;b&gt;Icons:&lt;/b&gt; 🔒 restricted · ⛔ deliberate skip · ⟳ continuous cycle · ★ primary component · ⇄ bi-directional &amp;nbsp;|&amp;nbsp; &lt;b&gt;Shapes:&lt;/b&gt; cylinder = data store · diamond = decision / check · folder = file landing · step arrow = pipeline phase · hexagon = shared hub" vertex="1">
+          <mxGeometry height="36" width="2280" x="20" y="116" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-338" parent="0" value="10 · Data Flows" />
+        <mxCell id="bVKumJbvJyEJEweoQE7_-339" edge="1" parent="bVKumJbvJyEJEweoQE7_-338" source="bVKumJbvJyEJEweoQE7_-46" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeWidth=3;strokeColor=#1F5FA6;endArrow=block;endFill=1;flowAnimation=1;fontSize=10;fontStyle=1;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.167;entryY=0;" target="bVKumJbvJyEJEweoQE7_-69" value="APIs">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-340" edge="1" parent="bVKumJbvJyEJEweoQE7_-338" source="bVKumJbvJyEJEweoQE7_-47" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeWidth=3;strokeColor=#2E8B7A;endArrow=block;endFill=1;flowAnimation=1;fontSize=10;fontStyle=1;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.526;entryY=0;" target="bVKumJbvJyEJEweoQE7_-69" value="files">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-341" edge="1" parent="bVKumJbvJyEJEweoQE7_-338" source="bVKumJbvJyEJEweoQE7_-52" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeWidth=2;strokeColor=#808080;dashed=1;dashPattern=1 3;endArrow=block;endFill=1;flowAnimation=1;fontSize=10;fontStyle=1;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.86;entryY=0;" target="bVKumJbvJyEJEweoQE7_-69" value="lookup">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-342" edge="1" parent="bVKumJbvJyEJEweoQE7_-338" source="bVKumJbvJyEJEweoQE7_-58" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeWidth=3;strokeColor=#E07A00;endArrow=block;endFill=1;flowAnimation=1;fontSize=10;fontStyle=1;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.14;entryY=0;" target="bVKumJbvJyEJEweoQE7_-81" value="events">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-343" edge="1" parent="bVKumJbvJyEJEweoQE7_-338" source="bVKumJbvJyEJEweoQE7_-62" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeWidth=3;strokeColor=#4A6A8A;startArrow=block;startFill=1;endArrow=block;endFill=1;flowAnimation=1;fontSize=10;fontStyle=1;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.456;entryY=0;" target="bVKumJbvJyEJEweoQE7_-81" value="⇄ APIs">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-344" edge="1" parent="bVKumJbvJyEJEweoQE7_-338" source="bVKumJbvJyEJEweoQE7_-65" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeWidth=3;strokeColor=#6D4C41;startArrow=block;startFill=1;endArrow=block;endFill=1;flowAnimation=1;fontSize=10;fontStyle=1;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.816;entryY=0;" target="bVKumJbvJyEJEweoQE7_-81" value="⇄ MFT">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-345" edge="1" parent="bVKumJbvJyEJEweoQE7_-338" source="bVKumJbvJyEJEweoQE7_-225" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeWidth=3;dashed=1;strokeColor=#7B1FA2;endArrow=block;endFill=1;flowAnimation=1;fontSize=10;fontStyle=1;fontColor=#4A148C;labelBackgroundColor=#FFFFFF;entryX=0;entryY=0.5;" target="bVKumJbvJyEJEweoQE7_-250" value="federation">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1200" y="2430" />
+              <mxPoint x="1200" y="2480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-346" parent="0" value="11 · Decisions &amp; Failure Paths" />
+        <mxCell id="dkey" parent="bVKumJbvJyEJEweoQE7_-346" style="swimlane;whiteSpace=wrap;html=1;startSize=34;fillColor=#0F172A;fontColor=#FBBF24;strokeColor=#FBBF24;fontStyle=1;fontSize=15;align=left;spacingLeft=14;swimlaneFillColor=#FFFBEB;rounded=1;arcSize=1;collapsible=1;" value="DECISION KEY: D1–D13 (Click a card to open its ADR · Hover a gold circle on the diagram for the trade-off)" vertex="1">
+          <mxGeometry height="180" width="2320" x="40" y="4418" as="geometry">
+            <mxRectangle height="34" width="900" x="40" y="4418" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="&lt;b&gt;D1&lt;/b&gt; · Two platforms, not one" link="https://github.com/srimarrivada/Hybrid-HR-Data-Platform-Reference-Architecture/blob/main/docs/adr/0001-two-platforms-not-one.md" id="dk1">
+          <mxCell parent="dkey" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D97706;strokeWidth=1.5;fontSize=11;fontColor=#1E293B;" vertex="1">
+            <mxGeometry height="54" width="318" x="10" y="44" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;b&gt;D2&lt;/b&gt; · Temporal ODS family" link="https://github.com/srimarrivada/Hybrid-HR-Data-Platform-Reference-Architecture/blob/main/docs/adr/0002-temporal-ods-family.md" id="dk2">
+          <mxCell parent="dkey" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D97706;strokeWidth=1.5;fontSize=11;fontColor=#1E293B;" vertex="1">
+            <mxGeometry height="54" width="318" x="338" y="44" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;b&gt;D3&lt;/b&gt; · Dependency-tiered batch" link="https://github.com/srimarrivada/Hybrid-HR-Data-Platform-Reference-Architecture/blob/main/docs/adr/0003-dependency-tiered-batch.md" id="dk3">
+          <mxCell parent="dkey" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D97706;strokeWidth=1.5;fontSize=11;fontColor=#1E293B;" vertex="1">
+            <mxGeometry height="54" width="318" x="666" y="44" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;b&gt;D4&lt;/b&gt; · Federation over replication" link="https://github.com/srimarrivada/Hybrid-HR-Data-Platform-Reference-Architecture/blob/main/docs/adr/0004-federation-over-replication.md" id="dk4">
+          <mxCell parent="dkey" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D97706;strokeWidth=1.5;fontSize=11;fontColor=#1E293B;" vertex="1">
+            <mxGeometry height="54" width="318" x="994" y="44" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;b&gt;D5&lt;/b&gt; · Blocking vs alerting DQ" link="https://github.com/srimarrivada/Hybrid-HR-Data-Platform-Reference-Architecture/blob/main/docs/adr/0005-blocking-vs-alerting-dq.md" id="dk5">
+          <mxCell parent="dkey" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D97706;strokeWidth=1.5;fontSize=11;fontColor=#1E293B;" vertex="1">
+            <mxGeometry height="54" width="318" x="1322" y="44" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;b&gt;D6&lt;/b&gt; · BI tool by audience" link="https://github.com/srimarrivada/Hybrid-HR-Data-Platform-Reference-Architecture/blob/main/docs/adr/0006-bi-tool-by-audience.md" id="dk6">
+          <mxCell parent="dkey" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D97706;strokeWidth=1.5;fontSize=11;fontColor=#1E293B;" vertex="1">
+            <mxGeometry height="54" width="318" x="1650" y="44" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;b&gt;D7&lt;/b&gt; · Medallion only where it adds value" link="https://github.com/srimarrivada/Hybrid-HR-Data-Platform-Reference-Architecture/blob/main/docs/adr/0007-selective-medallion.md" id="dk7">
+          <mxCell parent="dkey" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D97706;strokeWidth=1.5;fontSize=11;fontColor=#1E293B;" vertex="1">
+            <mxGeometry height="54" width="318" x="1978" y="44" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;b&gt;D8&lt;/b&gt; · Change detection by content compare" link="https://github.com/srimarrivada/Hybrid-HR-Data-Platform-Reference-Architecture/blob/main/docs/adr/0008-change-detection-strategy.md" id="dk8">
+          <mxCell parent="dkey" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D97706;strokeWidth=1.5;fontSize=11;fontColor=#1E293B;" vertex="1">
+            <mxGeometry height="54" width="318" x="10" y="108" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;b&gt;D9&lt;/b&gt; · Idempotent loads, safe re-runs" link="https://github.com/srimarrivada/Hybrid-HR-Data-Platform-Reference-Architecture/blob/main/docs/adr/0009-idempotent-loads.md" id="dk9">
+          <mxCell parent="dkey" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D97706;strokeWidth=1.5;fontSize=11;fontColor=#1E293B;" vertex="1">
+            <mxGeometry height="54" width="318" x="338" y="108" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;b&gt;D10&lt;/b&gt; · Kimball dimensional model" link="https://github.com/srimarrivada/Hybrid-HR-Data-Platform-Reference-Architecture/blob/main/docs/adr/0010-kimball-dimensional-model.md" id="dk10">
+          <mxCell parent="dkey" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D97706;strokeWidth=1.5;fontSize=11;fontColor=#1E293B;" vertex="1">
+            <mxGeometry height="54" width="318" x="666" y="108" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;b&gt;D11&lt;/b&gt; · Defense-in-depth security" link="https://github.com/srimarrivada/Hybrid-HR-Data-Platform-Reference-Architecture/blob/main/docs/adr/0011-defense-in-depth-security.md" id="dk11">
+          <mxCell parent="dkey" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D97706;strokeWidth=1.5;fontSize=11;fontColor=#1E293B;" vertex="1">
+            <mxGeometry height="54" width="318" x="994" y="108" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;b&gt;D12&lt;/b&gt; · Bronze captures transient source data" link="https://github.com/srimarrivada/Hybrid-HR-Data-Platform-Reference-Architecture/blob/main/docs/adr/0012-bronze-captures-transient-sources.md" id="dk12">
+          <mxCell parent="dkey" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D97706;strokeWidth=1.5;fontSize=11;fontColor=#1E293B;" vertex="1">
+            <mxGeometry height="54" width="318" x="1322" y="108" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;b&gt;D13&lt;/b&gt; · Fact and dimension patterns" link="https://github.com/srimarrivada/Hybrid-HR-Data-Platform-Reference-Architecture/blob/main/docs/adr/0013-fact-design-patterns.md" id="dk13">
+          <mxCell parent="dkey" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D97706;strokeWidth=1.5;fontSize=11;fontColor=#1E293B;" vertex="1">
+            <mxGeometry height="54" width="318" x="1650" y="108" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;b&gt;All decisions&lt;/b&gt; · ADR index ↗" link="https://github.com/srimarrivada/Hybrid-HR-Data-Platform-Reference-Architecture/blob/main/docs/adr/README.md" id="dk_all">
+          <mxCell parent="dkey" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#0F172A;strokeColor=#FBBF24;strokeWidth=1.5;fontSize=11;fontColor=#FBBF24;" vertex="1">
+            <mxGeometry height="54" width="318" x="1978" y="108" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="D1" tooltip="D1 - Two platforms, not one&#xa;Decision: keep the trusted nightly warehouse; add a lakehouse for event and integration use cases.&#xa;Alternatives: migrate everything to the lakehouse; add near-real-time loads to the warehouse.&#xa;Why: no big-bang migration risk; each platform does what it is best at.&#xa;Revisit when: most consumers need sub-day freshness.&#xa;Click to open the ADR." link="https://github.com/srimarrivada/Hybrid-HR-Data-Platform-Reference-Architecture/blob/main/docs/adr/0001-two-platforms-not-one.md" id="bVKumJbvJyEJEweoQE7_-347">
+          <mxCell parent="bVKumJbvJyEJEweoQE7_-346" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#0F172A;strokeColor=#FBBF24;strokeWidth=2;fontColor=#FBBF24;fontSize=11;fontStyle=1;shadow=1;" vertex="1">
+            <mxGeometry height="34" width="34" x="1183" y="240" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="D2" tooltip="D2 - Temporal ODS family&#xa;Decision: separate current, effective-dated, future-dated, history and full ODS sharing one code base.&#xa;Alternatives: a single SCD2 staging table; snapshots only.&#xa;Why: back-dated corrections and future-dated changes are handled without corrupting current state; full replay is possible.&#xa;Trade-off: more databases to run, mitigated by one commit promoted to all.&#xa;Click to open the ADR." link="https://github.com/srimarrivada/Hybrid-HR-Data-Platform-Reference-Architecture/blob/main/docs/adr/0002-temporal-ods-family.md" id="bVKumJbvJyEJEweoQE7_-348">
+          <mxCell parent="bVKumJbvJyEJEweoQE7_-346" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#0F172A;strokeColor=#FBBF24;strokeWidth=2;fontColor=#FBBF24;fontSize=10;fontStyle=1;shadow=1;" vertex="1">
+            <mxGeometry height="28" width="28" x="1146" y="1113" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="D3" tooltip="D3 - Dependency-tiered batch&#xa;Decision: jobs start when their predecessors finish (dependency graph with gates); a small number of anchor jobs start on a clock.&#xa;Alternatives: fixed clock schedule; one sequential chain.&#xa;Why: independent work runs in parallel, the critical path shrinks, completion adapts to daily volume.&#xa;Trade-off: the dependency graph must be maintained as configuration.&#xa;Click to open the ADR." link="https://github.com/srimarrivada/Hybrid-HR-Data-Platform-Reference-Architecture/blob/main/docs/adr/0003-dependency-tiered-batch.md" id="bVKumJbvJyEJEweoQE7_-349">
+          <mxCell parent="bVKumJbvJyEJEweoQE7_-346" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#0F172A;strokeColor=#FBBF24;strokeWidth=2;fontColor=#FBBF24;fontSize=10;fontStyle=1;shadow=1;" vertex="1">
+            <mxGeometry height="28" width="28" x="1146" y="663" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="D4" tooltip="D4 - Federation over replication&#xa;Decision: the lakehouse reads conformed dimensions from the warehouse at query time through a few governed views.&#xa;Alternatives: replicate dimensions into Delta; CDC copy.&#xa;Why: one version of the truth, no sync lag, no duplicate pipelines.&#xa;Guardrails: approved views only, resolve keys at ETL time, monitor latency and source load.&#xa;Revisit when: concurrency or latency targets are missed, then materialize.&#xa;Click to open the ADR." link="https://github.com/srimarrivada/Hybrid-HR-Data-Platform-Reference-Architecture/blob/main/docs/adr/0004-federation-over-replication.md" id="bVKumJbvJyEJEweoQE7_-350">
+          <mxCell parent="bVKumJbvJyEJEweoQE7_-346" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#0F172A;strokeColor=#FBBF24;strokeWidth=2;fontColor=#FBBF24;fontSize=11;fontStyle=1;shadow=1;" vertex="1">
+            <mxGeometry height="34" width="34" x="1183" y="2385" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="D5" tooltip="D5 - Blocking vs alerting data quality&#xa;Decision: a blocking gate before the warehouse publish; alert-only checks in the lakehouse.&#xa;Why: enterprise reporting should show yesterday&#39;s good data rather than today&#39;s bad data; operational integrations must keep flowing and reconcile later.&#xa;Alternatives: block everywhere; alert everywhere.&#xa;Click to open the ADR." link="https://github.com/srimarrivada/Hybrid-HR-Data-Platform-Reference-Architecture/blob/main/docs/adr/0005-blocking-vs-alerting-dq.md" id="bVKumJbvJyEJEweoQE7_-351">
+          <mxCell parent="bVKumJbvJyEJEweoQE7_-346" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#0F172A;strokeColor=#FBBF24;strokeWidth=2;fontColor=#FBBF24;fontSize=10;fontStyle=1;shadow=1;" vertex="1">
+            <mxGeometry height="28" width="28" x="705" y="2218" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="D6" tooltip="D6 - BI tool by audience&#xa;Decision: composite BI model for the broad governed audience; live SQL dashboard for a small ops team; imported dashboards for lakehouse business users.&#xa;Why: match freshness, row-level security and cost to who is reading.&#xa;Alternatives: one tool and one refresh mode for everyone.&#xa;Click to open the ADR." link="https://github.com/srimarrivada/Hybrid-HR-Data-Platform-Reference-Architecture/blob/main/docs/adr/0006-bi-tool-by-audience.md" id="bVKumJbvJyEJEweoQE7_-352">
+          <mxCell parent="bVKumJbvJyEJEweoQE7_-346" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#0F172A;strokeColor=#FBBF24;strokeWidth=2;fontColor=#FBBF24;fontSize=10;fontStyle=1;shadow=1;" vertex="1">
+            <mxGeometry height="28" width="28" x="2326" y="2693" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="D7" tooltip="D7 - Medallion only where it adds value&#xa;Decision: an integration gets Bronze/Silver/Gold only if it builds history, has an analytical audience and answers questions no other source can. One integration is deliberately skipped.&#xa;Why: avoids building and running models nobody uses.&#xa;Revisit when: a new audience or question appears.&#xa;Click to open the ADR." link="https://github.com/srimarrivada/Hybrid-HR-Data-Platform-Reference-Architecture/blob/main/docs/adr/0007-selective-medallion.md" id="bVKumJbvJyEJEweoQE7_-353">
+          <mxCell parent="bVKumJbvJyEJEweoQE7_-346" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#0F172A;strokeColor=#FBBF24;strokeWidth=2;fontColor=#FBBF24;fontSize=10;fontStyle=1;shadow=1;" vertex="1">
+            <mxGeometry height="28" width="28" x="2326" y="2183" as="geometry" />
+          </mxCell>
+        </UserObject>
+		<UserObject label="D8" tooltip="D8 - Change detection by content compare&#xa;Decision: detect changes by comparing content (set-based compare, or row hash for wide entities), excluding volatile columns such as load stamps.&#xa;Alternatives: source timestamps; full nightly reload; database-native CDC.&#xa;Why: timestamps produce false changes and miss real ones; downstream feeds should receive only true changes.&#xa;Trade-off: compare cost grows with width and volume; excluded-column list must be maintained.&#xa;Click to open the ADR." link="https://github.com/srimarrivada/Hybrid-HR-Data-Platform-Reference-Architecture/blob/main/docs/adr/0008-change-detection-strategy.md" id="dec8">
+          <mxCell parent="bVKumJbvJyEJEweoQE7_-346" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#0F172A;strokeColor=#FBBF24;strokeWidth=2;fontColor=#FBBF24;fontSize=10;fontStyle=1;shadow=1;" vertex="1">
+            <mxGeometry height="28" width="28" x="650" y="1560" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="D9" tooltip="D9 - Idempotent loads and safe re-runs&#xa;Decision: every load is safe to run twice. Watermarks advance only after full success; upserts instead of blind inserts; additive merges only with a run log that rejects already-processed inputs.&#xa;Alternatives: manual cleanup before re-runs; truncate-and-reload everything.&#xa;Why: any failed job can be re-run without analysis, with no gaps and no double counting.&#xa;Click to open the ADR." link="https://github.com/srimarrivada/Hybrid-HR-Data-Platform-Reference-Architecture/blob/main/docs/adr/0009-idempotent-loads.md" id="dec9">
+          <mxCell parent="bVKumJbvJyEJEweoQE7_-346" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#0F172A;strokeColor=#FBBF24;strokeWidth=2;fontColor=#FBBF24;fontSize=10;fontStyle=1;shadow=1;" vertex="1">
+            <mxGeometry height="28" width="28" x="1140" y="772" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="D10" tooltip="D10 - Kimball dimensional model&#xa;Decision: star schema / constellation with conformed dimensions, SCD Type 2 where history matters, role-playing dimensions and several fact types.&#xa;Alternatives: 3NF enterprise model; Data Vault; reporting on raw views.&#xa;Why: intuitive for a large self-service audience and BI tools; consistent KPIs; fast queries.&#xa;Trade-off: ETL build effort; schema changes ripple through the model.&#xa;Click to open the ADR." link="https://github.com/srimarrivada/Hybrid-HR-Data-Platform-Reference-Architecture/blob/main/docs/adr/0010-kimball-dimensional-model.md" id="dec10">
+          <mxCell parent="bVKumJbvJyEJEweoQE7_-346" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#0F172A;strokeColor=#FBBF24;strokeWidth=2;fontColor=#FBBF24;fontSize=9;fontStyle=1;shadow=1;" vertex="1">
+            <mxGeometry height="28" width="28" x="280" y="2220" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="D11" tooltip="D11 - Defense-in-depth security&#xa;Decision: layered controls: schema separation by sensitivity tier, row-level security in BI, DirectQuery for highly restricted facts, restricted data kept out of federation, data minimization for feeds.&#xa;Alternatives: row-level security only; separate physical databases per tier.&#xa;Why: a failure in one layer does not expose data.&#xa;Trade-off: role mappings must stay in sync across layers.&#xa;Click to open the ADR." link="https://github.com/srimarrivada/Hybrid-HR-Data-Platform-Reference-Architecture/blob/main/docs/adr/0011-defense-in-depth-security.md" id="dec11">
+          <mxCell parent="bVKumJbvJyEJEweoQE7_-346" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#0F172A;strokeColor=#FBBF24;strokeWidth=2;fontColor=#FBBF24;fontSize=9;fontStyle=1;shadow=1;" vertex="1">
+            <mxGeometry height="28" width="28" x="1140" y="1636" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="D12" tooltip="D12 - Bronze captures transient source data&#xa;Decision: capture every inbound payload as received, append-only, before it is transformed, encrypted or forwarded.&#xa;Why: some sources keep no history; without capture, trend analysis and replay are impossible.&#xa;Trade-off: retention cost; raw sensitive data in Bronze must be governed.&#xa;Click to open the ADR." link="https://github.com/srimarrivada/Hybrid-HR-Data-Platform-Reference-Architecture/blob/main/docs/adr/0012-bronze-captures-transient-sources.md" id="dec12">
+          <mxCell parent="bVKumJbvJyEJEweoQE7_-346" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#0F172A;strokeColor=#FBBF24;strokeWidth=2;fontColor=#FBBF24;fontSize=9;fontStyle=1;shadow=1;" vertex="1">
+            <mxGeometry height="28" width="28" x="2310" y="1410" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="D13" tooltip="D13 - Fact and dimension design patterns&#xa;Decision: consolidated facts with a source-type column when several systems record the same event; junk dimensions for low-cardinality flags; weighted bridges for many-to-many; role-playing dimensions.&#xa;Alternatives: one fact per source; flags on facts; unweighted bridges.&#xa;Why: one place to query, correct totals, leaner facts.&#xa;Click to open the ADR." link="https://github.com/srimarrivada/Hybrid-HR-Data-Platform-Reference-Architecture/blob/main/docs/adr/0013-fact-design-patterns.md" id="dec13">
+          <mxCell parent="bVKumJbvJyEJEweoQE7_-346" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#0F172A;strokeColor=#FBBF24;strokeWidth=2;fontColor=#FBBF24;fontSize=9;fontStyle=1;shadow=1;" vertex="1">
+            <mxGeometry height="28" width="28" x="411" y="2220" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-354" parent="bVKumJbvJyEJEweoQE7_-346" style="swimlane;whiteSpace=wrap;html=1;startSize=34;fillColor=#B71C1C;fontColor=#FFFFFF;strokeColor=#7F1D1D;fontStyle=1;fontSize=15;align=left;spacingLeft=14;swimlaneFillColor=#FFFAFA;rounded=1;arcSize=1;collapsible=1;" value="FAILURE &amp;amp; RECOVERY PATHS: What happens when things go wrong (Click a card to jump to that section)" vertex="1">
+          <mxGeometry height="190" width="2320" x="40" y="4200" as="geometry">
+            <mxRectangle height="34" width="900" x="40" y="4200" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bVKumJbvJyEJEweoQE7_-360" parent="bVKumJbvJyEJEweoQE7_-354" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontSize=11;fontColor=#7F1D1D;" value="&lt;b&gt;D1–D13&lt;/b&gt;&amp;nbsp;(gold circles) = Design decisions: Hover for the trade-off, click for the ADR.&amp;nbsp;&amp;nbsp;&lt;b&gt;F1–F5&lt;/b&gt; = Failure paths: Click to jump to the affected section" vertex="1">
+          <mxGeometry height="36" width="2300" x="10" y="148" as="geometry" />
+        </mxCell>
+        <mxCell id="EH1S9GchiQGYpskucD9f-0" connectable="0" parent="bVKumJbvJyEJEweoQE7_-354" style="group" value="" vertex="1">
+          <mxGeometry height="86" width="2300" x="10" y="44" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;b&gt;F1 - Nightly run fails part-way&lt;/b&gt;&lt;hr&gt;• Extraction window is NOT advanced (postload runs only on full success)&lt;br&gt;• Next run re-extracts the same window → no data gaps&lt;br&gt;• Resume from the failed step using restart flags" link="data:action/json,{&quot;actions&quot;:[{&quot;scroll&quot;:{&quot;cells&quot;:[&quot;bVKumJbvJyEJEweoQE7_-69&quot;]}}]}" id="bVKumJbvJyEJEweoQE7_-355">
+          <mxCell parent="EH1S9GchiQGYpskucD9f-0" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#FFF5F5;strokeColor=#C62828;strokeWidth=2;dashed=1;fontSize=10;align=left;verticalAlign=top;spacingLeft=8;spacingTop=4;spacingRight=6;" vertex="1">
+            <mxGeometry height="86" width="452" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;b&gt;F2 - DQ gate below threshold&lt;/b&gt;&lt;hr&gt;• Publish stopped · previous warehouse version stays live&lt;br&gt;• BI keeps yesterday&#39;s import · alert raises a ticket&lt;br&gt;• Fix the data, then re-run only the publish step" link="data:action/json,{&quot;actions&quot;:[{&quot;scroll&quot;:{&quot;cells&quot;:[&quot;bVKumJbvJyEJEweoQE7_-201&quot;]}}]}" id="bVKumJbvJyEJEweoQE7_-356">
+          <mxCell parent="EH1S9GchiQGYpskucD9f-0" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#FFF5F5;strokeColor=#C62828;strokeWidth=2;dashed=1;fontSize=10;align=left;verticalAlign=top;spacingLeft=8;spacingTop=4;spacingRight=6;" vertex="1">
+            <mxGeometry height="86" width="452" x="462" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;b&gt;F3 - Integration record or API call fails&lt;/b&gt;&lt;hr&gt;• Record marked FAILED, the batch continues&lt;br&gt;• Token refresh + retries · scheduled retry or manual reprocess&lt;br&gt;• Replay from Bronze / raw event archive" link="data:action/json,{&quot;actions&quot;:[{&quot;scroll&quot;:{&quot;cells&quot;:[&quot;bVKumJbvJyEJEweoQE7_-152&quot;]}}]}" id="bVKumJbvJyEJEweoQE7_-357">
+          <mxCell parent="EH1S9GchiQGYpskucD9f-0" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#FFF5F5;strokeColor=#C62828;strokeWidth=2;dashed=1;fontSize=10;align=left;verticalAlign=top;spacingLeft=8;spacingTop=4;spacingRight=6;" vertex="1">
+            <mxGeometry height="86" width="452" x="924" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;b&gt;F4 - Federation slow or enterpriswarehouse unavailable&lt;/b&gt;&lt;hr&gt;• Lakehouse keeps its last good Gold layer&lt;br&gt;• Unresolved worker → unknown-member key, reconciled after DW publish; alert if still unresolved&lt;br&gt;• If it keeps happening: materialize the hot views (D4)" link="data:action/json,{&quot;actions&quot;:[{&quot;scroll&quot;:{&quot;cells&quot;:[&quot;bVKumJbvJyEJEweoQE7_-250&quot;]}}]}" id="bVKumJbvJyEJEweoQE7_-358">
+          <mxCell parent="EH1S9GchiQGYpskucD9f-0" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#FFF5F5;strokeColor=#C62828;strokeWidth=2;dashed=1;fontSize=10;align=left;verticalAlign=top;spacingLeft=8;spacingTop=4;spacingRight=6;" vertex="1">
+            <mxGeometry height="86" width="452" x="1386" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;b&gt;F5 - Late or back-dated source changes&lt;/b&gt;&lt;hr&gt;• Effective-dated ODS catches back-dated corrections → merged into current&lt;br&gt;• SCD2 history corrected, not overwritten&lt;br&gt;• Future-dated changes held until their effective date (D2)" link="data:action/json,{&quot;actions&quot;:[{&quot;scroll&quot;:{&quot;cells&quot;:[&quot;bVKumJbvJyEJEweoQE7_-116&quot;]}}]}" id="bVKumJbvJyEJEweoQE7_-359">
+          <mxCell parent="EH1S9GchiQGYpskucD9f-0" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#FFF5F5;strokeColor=#C62828;strokeWidth=2;dashed=1;fontSize=10;align=left;verticalAlign=top;spacingLeft=8;spacingTop=4;spacingRight=6;" vertex="1">
+            <mxGeometry height="86" width="452" x="1848" as="geometry" />
+          </mxCell>
+        </UserObject>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

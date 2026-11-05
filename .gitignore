@@ -1,0 +1,15 @@
+# Private or client material: never commit
+private/
+*.pdf
+*_Detailed.*
+*client*
+*Client*
+
+# draw.io backups (can contain old content)
+*.drawio.bkp
+*.drawio.dtmp
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/

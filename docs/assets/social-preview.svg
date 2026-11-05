@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0A1A33"/>
+      <stop offset="1" stop-color="#10304F"/>
+    </linearGradient>
+    <linearGradient id="topbar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#4A7FC1"/>
+      <stop offset="0.5" stop-color="#2EC4B6"/>
+      <stop offset="1" stop-color="#F28C28"/>
+    </linearGradient>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2EC4B6"/>
+    </marker>
+    <marker id="arrGrey" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#8FA6BD"/>
+    </marker>
+  </defs>
+
+  <rect width="1280" height="640" fill="url(#bg)"/>
+  <rect width="1280" height="8" fill="url(#topbar)"/>
+
+  <g font-family="Segoe UI, Helvetica Neue, Arial, sans-serif">
+    <!-- Title -->
+    <text x="80" y="190" font-size="54" font-weight="700" fill="#FFFFFF">Hybrid HR Data Platform</text>
+    <text x="80" y="258" font-size="54" font-weight="700" fill="#FFFFFF">Reference Architecture</text>
+    <rect x="80" y="285" width="110" height="5" rx="2.5" fill="#F28C28"/>
+
+    <!-- Subtitle and keywords -->
+    <text x="80" y="345" font-size="26" fill="#E6EDF5">SQL Server Warehouse + Azure Databricks Lakehouse</text>
+    <text x="80" y="395" font-size="22" font-weight="600" fill="#2EC4B6">Kimball DW | Medallion | Zero-Copy Federation | Power BI</text>
+    <text x="80" y="432" font-size="20" fill="#8FA6BD">CDC | Data Quality | Defense-in-Depth Security | 13 ADRs</text>
+
+    <!-- Mini diagram: two platforms, one-way federation, both feed BI -->
+    <!-- Platform 1 -->
+    <rect x="880" y="160" width="320" height="62" rx="8" fill="#12325A" stroke="#7FB2FF" stroke-width="2"/>
+    <text x="1040" y="187" font-size="15" font-weight="700" fill="#FFFFFF" text-anchor="middle">PLATFORM 1: SQL SERVER</text>
+    <text x="1040" y="209" font-size="13" fill="#B8C7D9" text-anchor="middle">Kimball Warehouse | Nightly | T+1</text>
+
+    <!-- Federation (one-way, dashed) -->
+    <line x1="1040" y1="224" x2="1040" y2="272" stroke="#2EC4B6" stroke-width="2" stroke-dasharray="6 4" marker-end="url(#arr)"/>
+    <text x="1054" y="253" font-size="13" fill="#2EC4B6">zero-copy federation</text>
+
+    <!-- Platform 2 -->
+    <rect x="880" y="276" width="320" height="62" rx="8" fill="#3A2C12" stroke="#D4AF37" stroke-width="2"/>
+    <text x="1040" y="303" font-size="15" font-weight="700" fill="#FFFFFF" text-anchor="middle">PLATFORM 2: DATABRICKS</text>
+    <text x="1040" y="325" font-size="13" fill="#E3D3A6" text-anchor="middle">Medallion Lakehouse | Events</text>
+
+    <!-- P2 -> BI -->
+    <line x1="1040" y1="340" x2="1040" y2="388" stroke="#8FA6BD" stroke-width="2" marker-end="url(#arrGrey)"/>
+
+    <!-- P1 -> BI (routed down the left side) -->
+    <path d="M880,191 L860,191 L860,421 L878,421" fill="none" stroke="#8FA6BD" stroke-width="2" marker-end="url(#arrGrey)"/>
+
+    <!-- BI -->
+    <rect x="880" y="392" width="320" height="58" rx="8" fill="#0F3B3A" stroke="#2EC4B6" stroke-width="2"/>
+    <text x="1040" y="418" font-size="15" font-weight="700" fill="#FFFFFF" text-anchor="middle">BI: POWER BI + DATABRICKS SQL</text>
+    <text x="1040" y="438" font-size="13" fill="#A8DCD6" text-anchor="middle">Governed BI + Live Ops Dashboards</text>
+
+    <!-- Footer -->
+    <line x1="80" y1="540" x2="1200" y2="540" stroke="#2A3F5A" stroke-width="1.5"/>
+    <text x="80" y="580" font-size="18" fill="#8FA6BD">Data Platform Architecture Portfolio | Sri Adilakshmi Marrivada</text>
+    <text x="1200" y="580" font-size="18" fill="#8FA6BD" text-anchor="end">github.com/srimarrivada</text>
+  </g>
+</svg>
